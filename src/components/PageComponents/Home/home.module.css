@@ -1,0 +1,821 @@
+.HeroSection {
+  position: relative; 
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px 150px 0px;
+  min-height: 35rem;
+  margin: 10% auto auto auto;
+}
+.HeroSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #6d0073;
+}
+.HeroSection h1 span {
+  color: #0397d7;
+}
+.HeroSection p {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #000000;
+}
+.HeroSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #0397d7;
+  color: #ffffff;
+  border-color: #0397d7;
+}
+
+.HeroSection a.blue-btns:hover {
+  background: #25ACDF;
+  background-color: #25ACDF;
+  border-color: #25ACDF;
+  color: white!important;
+  border-radius: 50px;
+  -webkit-transition: 0.4s all ease-in-out;
+  -o-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+
+.NewPatientSection {
+  position: relative; 
+  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.75) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(255, 255, 255, 1) 100%), url('../../../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0px 150px 0px;
+  padding: 5% 0px 10% 0px;
+  z-index: 2;
+  min-height: 40rem;
+}
+/*
+.NewPatientSection:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 132, 196, 0.75),
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  z-index: -1;
+}*/
+.NewPatientSection h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+}
+.NewPatientSection p {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+}
+.NewPatientSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  margin: 20px 0px;
+  color: #0397d7;
+  border-color: #ffffff;
+}
+
+.MeetDoctorSection {
+  position: relative; 
+  padding: 75px 0px 0px 0px;
+}
+.MeetDoctorSection .DoctorImage {
+  position: relative; 
+}
+.MeetDoctorSection .DoctorImage img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 50px;
+}
+.MeetDoctorSection .DoctorDetails {
+  position: relative; 
+  padding: 20px 5%;
+}
+.MeetDoctorSection h2 {
+  text-align: left;
+  font-weight: 700;
+  color: #0397d7;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raybent Mango";
+  font-size: 40px;
+  font-weight: normal;
+}
+.MeetDoctorSection h3 {
+  text-align: left;
+  font-weight: 400;
+  color: #4f5875;
+  margin: 0px;
+  padding: 0px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.MeetDoctorSection p {
+  text-align: left;
+  font-weight: 400;
+  color: #2f2f2f;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.MeetDoctorSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff;
+  border-color: #0397d7;
+  margin: 20px 0px;
+  color: #0397d7;
+}
+
+.SpecializeSection {
+  position: relative; 
+  padding: 50px 0px;
+}
+.SpecializeSection h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #4d5973;
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+.SpecializeSection h3 {
+  text-align: center;
+  font-weight: 400;
+  color: #302e31;
+  margin: 0px;
+  padding: 0px;
+}
+.SpecializeSection h4 {
+  text-align: center;
+  font-weight: 700;
+  color: #0397d7;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.SpecializeTopMargin {
+  position: relative; 
+  margin-top: 50px;
+}
+.SpecializeBox {
+  position: relative; 
+  background: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+  margin-bottom: 50px;
+}
+.SpecializeBox img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.SpecializeSection a.blue-btns {
+  display: inline-block;
+  vertical-align: top;
+  background: #0397d7;
+  border-collapse: #0397d7;
+  color: #ffffff;
+  margin: 20px auto;
+}
+
+.SucessSection {
+	position: relative; 
+}
+.SucessSection h2 {
+	text-align: center;
+	font-weight: 700;
+	color: #4d5973;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.SucessSection h3 {
+	text-align: center;
+	font-weight: 400;
+	color: #302e31;
+	margin: 0px;
+	padding: 0px;
+}
+.SucessSection h4 {
+	color: #0397d7;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+}
+.SucessSection h4 span {
+	font-size: 15px;
+}
+.SucessSection p {
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+	color: #2f2f2f;
+}
+.SucessSection p strong {
+	font-weight: 400;
+}
+.SucessSection a.blue-btns {
+	display: inline-block;
+	vertical-align: top;
+	background: #FFFFFF;
+	border-color: #0397d7;
+	color: #0397d7;
+	margin: 20px auto;
+}
+.SucessSection .cx_star {
+	position: relative; 
+	margin: 20px 0px;
+}
+.SucessSection .cx_star span {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 5px 0px 0px;
+	font-size: 25px;
+	color: #ebd083;
+}
+.SucessSection .SuccessBox {
+	position: relative; 
+	border-radius: 20px;
+	margin: 50px auto;
+	display: block;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+.LeftImage {
+	position: relative; 
+}
+.LeftImage img {
+	border-radius: 20px 0px 0px 20px;
+	width:100%;
+}
+.TextBox {
+	position: relative; 
+	background: #FFFFFF;
+	padding: 20px 5%;
+	border-radius: 0px 20px 20px 0px;
+}
+
+.CenterDetails {
+  position: relative; 
+  background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);
+ /* background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');*/
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px 19% 0px;
+	z-index: 2;
+}
+/*
+background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../images/people-running-marathon.jpeg');
+*/
+/*
+.CenterDetails:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: -webkit-gradient(linear, left top, right top, from(rgba(0,132,196,0.75)), to(rgba(0,132,196,0)));
+	background: linear-gradient(to right, rgba(0,132,196,0.5) 100%, rgba(0,132,196,0) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf0084c4', endColorstr='#000084c4', GradientType=1 );
+	z-index: -1;
+}*/
+.CenterDetails h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.CenterDetails h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0px;
+    padding: 0px;
+}
+
+.TimeTable {
+	position: relative; 
+	border-radius: 30px;
+	background: #FFFFFF;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 890px;
+	margin-top: -15%;
+	z-index: 2;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+.LeftDetails {
+	position: relative; 
+	padding: 15px 50px;
+	border-radius: 30px 0px 0px 30px;
+}
+.LeftDetails table {
+	position: relative; 
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+.LeftDetails table tr {
+	position: relative; 
+}
+.LeftDetails table tr td {
+	color: #4b5973;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	border-bottom: 20px solid transparent;
+}
+.LeftDetails table tr td:nth-child(2) {
+	text-align: center;
+	width: 20px;
+}
+.LeftDetails table tr td:last-child {
+	margin-bottom: 0px;
+}
+.TableDetails {
+	position: relative; 
+	padding: 10px 20px;
+	background: #0397d7;
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 14px;
+	border-radius: 15px;
+	text-align: center;
+}
+.MapResponsive {
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative; 
+	height: 0;
+}
+.MapResponsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.HeroMobile {
+  display: none;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.HeroMobileCTA {
+  display: none;
+  line-height: 30px;
+  border-bottom: solid 1px rgba(0,0,0,.05);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+  align-content: stretch;
+  text-align: center;
+}
+
+
+.CTALink {
+  font-size: 16px;
+  font-style: normal;
+  width: 33.3%;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.CTALink:hover,
+.CTALink:focus,
+.CTALink:active {
+  font-size: 16px;
+  font-style: normal;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.CTACall {
+    padding-right: 3px;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    line-height: inherit;
+    text-align: inherit;
+    color: #8CC152;
+}
+
+.CTAMessage {
+  padding-right: 3px;
+  font-weight: 900;
+  display: inline-block;
+  text-rendering: auto;
+  line-height: inherit;
+  text-align: inherit;
+  color: #6D0073;
+ 
+}
+
+.CTASchedule {
+  padding-right: 3px;
+  font-weight: 900;
+  display: inline-block;
+  text-rendering: auto;
+  line-height: inherit;
+  text-align: inherit;
+  color: #0397D7;
+
+}
+
+
+@media screen and (max-width:1680px) {
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+@media screen and (max-width:1280px) {
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .HeroSection {
+    padding: 50px 0px 100px 0px;
+  }
+
+  .HeroMobile {
+    display: none;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .HeroMobileCTA {
+    display: none;
+  }
+  .HeroSection h1 {
+    font-size: 45px;
+  }
+  .HeroSection p {
+    font-size: 18px;
+  }
+  .NewPatientSection {
+    padding: 50px 0px 100px 0px;
+  }
+  .NewPatientSection h1 {
+    font-size: 45px;
+  }
+  .NewPatientSection p {
+    font-size: 18px;
+  }
+
+  .MeetDoctorSection {
+    padding: 50px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 30px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 35px;
+  }
+  .MeetDoctorSection p {
+    font-size: 15px;
+  }
+
+  .SpecializeSection {
+    padding: 30px 0px;
+  }
+  .SpecializeSection h4 {
+    font-size: 18px;
+  }
+  .SpecializeTopMargin {
+    margin-top: 30px;
+  }
+  .SpecializeBox {
+    margin-bottom: 30px;
+  }
+
+  .SucessSection h4 {
+	font-size: 20px;
+}
+.SucessSection h4 span {
+	font-size: 15px;
+}
+.SucessSection p {
+	font-size: 16px;
+	margin: 0px 0px 20px 0px;
+}
+.SucessSection .cx_star {
+	position: relative; 
+	margin: 20px 0px;
+}
+.SucessSection .SuccessBox {
+	margin: 30px auto;
+}
+
+.LeftDetails table tr td {
+	font-size: 18px;
+	height: 30px;
+	border-bottom: 15px solid transparent;
+}
+.TableDetails {
+	padding: 10px 15px;
+	font-size: 12px;
+}
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+  .HeroSection {
+    padding: 50px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+  }
+
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+  }
+
+
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 16px;
+  }
+  .NewPatientSection {
+    padding: 50px 0px;
+    
+  }
+  .NewPatientSection h1 {
+    font-size: 35px;
+  }
+  .NewPatientSection p {
+    font-size: 16px;
+  }
+
+  .MeetDoctorSection {
+    padding: 30px 0px 0px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 25px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 30px;
+  }
+
+  .SpecializeSection {
+    padding: 25px 0px;
+  }
+  .SpecializeSection h4 {
+    font-size: 16px;
+  }
+  .SpecializeTopMargin {
+    margin-top: 25px;
+  }
+  .SpecializeBox {
+    margin-bottom: 25px;
+  }
+
+  .SucessSection h4 {
+	font-size: 18px;
+}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 10% 5%;
+    margin: 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+  }
+  .HeroSection h1 {
+    font-size: 35px;
+  }
+  .HeroSection p {
+    font-size: 16px;
+  }
+
+  .NewPatientSection {
+    padding: 30% 10%;
+    margin: 2rem auto;
+  }
+  .NewPatientSection h1 {
+    font-size: 25px;
+  }
+  .NewPatientSection p {
+    font-size: 15px;
+  }
+
+  .MeetDoctorSection .DoctorImage img {
+    display: block;
+    margin: auto;
+  }
+  .MeetDoctorSection .DoctorDetails {
+    padding: 30px 0px;
+  }
+  .MeetDoctorSection h2 {
+    font-size: 22px;
+  }
+  .MeetDoctorSection h3 {
+    font-size: 25px;
+  }
+
+  .LeftImage img {
+	border-radius: 20px 20px 0px 0px;
+}
+.TextBox {
+	padding: 20px 15px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.TimeTable{
+	border-radius:15px;
+}
+.LeftDetails{
+	padding:25px 15px;
+}
+.MapResponsive iframe {
+	border-radius: 0px 0px 15px 15px;
+}
+
+.HeroTitle h1 {
+  margin: -30%;
+}
+
+h1 .HeroTitle {
+  margin: auto;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:480px) {
+  .HeroSection {
+    padding: 0px 0px 50px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position:  70% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20rem;
+    margin: 40% auto auto auto;
+  }
+  .HeroMobile {
+    display: block;
+    line-height: 30px;
+    padding: 5%;
+    margin: 0;
+    height: auto;
+  }
+
+  .HeroTitle h1 {
+    margin: -40% 0 0 0;
+  }
+
+  h1 .HeroTitle {
+      margin: -40% 0 0 0;
+  }
+
+  .HeroMobileCTA {
+    display: flex;
+    line-height: 80px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    margin: auto 0;
+    height: 80px;
+    }
+
+  .CTAIcon {
+    min-width: 30px;
+  }
+
+    .LeftDetails table tr td {
+        font-size: 15px;
+        border-bottom: 10px solid transparent;
+    }
+    .TableDetails {
+      padding: 5px;
+      font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+  .HeroSection {
+    padding: 30px 0px 0px 0px;
+    position: relative; 
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 0;
+  }
+
+  .HeroMobileCTA {
+    display: block;
+    line-height: 30px;
+    border-bottom: solid 1px rgba(0,0,0,.05);
+    padding: 0 0 10px 0;
+    padding-bottom: 10px;
+    margin: 0 0 30px 0;
+    margin-bottom: 30px;
+  }
+}
+
+
