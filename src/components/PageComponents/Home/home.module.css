@@ -48,6 +48,17 @@
   transition: 0.4s all ease-in-out;
 }
 
+.ReversedRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.AddressTitle {
+  text-align: center;
+  color: #0397d7;
+}
+
 .NewPatientSection {
   position: relative; 
   background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.75) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(255, 255, 255, 1) 100%), url('../../../images/woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');
@@ -290,13 +301,26 @@
 
 .CenterDetails {
   position: relative; 
+  /*background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);*/
+  background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0px 19% 0px;
+  z-index: 2;
+  min-height: 5rem;
+}
+
+.CenterDetailsMobile {
+  position: relative; 
   background: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%);
  /* background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../../../images/AdobeStock_226751393_Preview.jpeg');*/
   background-position: center center;
   background-repeat: no-repeat;
 	background-size: cover;
 	padding: 10% 0px 19% 0px;
-	z-index: 2;
+  z-index: 2;
+  min-height: 0;
 }
 /*
 background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0, 132, 196, 0.45) 66%, rgba(0, 132, 196, 0.25) 100%), url('../images/people-running-marathon.jpeg');
@@ -329,6 +353,23 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 	margin: 0px;
     padding: 0px;
 }
+
+.CenterDetailsMobile h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.CenterDetailsMobile h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0px;
+    padding: 0px;
+}
+
 
 .TimeTable {
 	position: relative; 
@@ -420,7 +461,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 
 
 .CTALink {
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   width: 33.3%;
   color: #000000;
@@ -446,8 +487,9 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     display: inline-block;
     text-rendering: auto;
     line-height: inherit;
-    text-align: inherit;
+    text-align: center;
     color: #8CC152;
+    font-size: 19px;
 }
 
 .CTAMessage {
@@ -456,8 +498,9 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   display: inline-block;
   text-rendering: auto;
   line-height: inherit;
-  text-align: inherit;
+  text-align: center;
   color: #6D0073;
+  font-size: 19px;
  
 }
 
@@ -467,8 +510,9 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   display: inline-block;
   text-rendering: auto;
   line-height: inherit;
-  text-align: inherit;
+  text-align: center;
   color: #0397D7;
+  font-size: 19px;
 
 }
 
@@ -592,23 +636,34 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     padding: 50px 0px 0px 0px;
     position: relative; 
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
-    background-position: center center;
+    background-position: 70% center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 30rem;
+    margin: 20% auto auto auto;
   }
 
   .HeroMobile {
     display: block;
     line-height: 30px;
-    padding: 0;
-    margin: 0;
+    padding: 5%;
+    margin: auto;
+    height: auto;
   }
+
+
 
   .HeroMobileCTA {
     display: flex;
-    line-height: 30px;
+    line-height: 60px;
     border-bottom: solid 1px rgba(0,0,0,.05);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
   }
 
 
@@ -618,6 +673,21 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   .HeroSection p {
     font-size: 16px;
   }
+
+  .TimeTable {
+    margin: -15% 0 7% 0;
+  }
+
+  .ReversedRow {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MapResponsive iframe {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+
   .NewPatientSection {
     padding: 50px 0px;
     
@@ -633,7 +703,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     padding: 30px 0px 0px 0px;
   }
   .MeetDoctorSection h2 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .MeetDoctorSection h3 {
     font-size: 30px;
@@ -708,8 +778,9 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     padding: 30px 0px;
   }
   .MeetDoctorSection h2 {
-    font-size: 22px;
+    font-size: 30px;
   }
+
   .MeetDoctorSection h3 {
     font-size: 25px;
   }
@@ -729,7 +800,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 	padding:25px 15px;
 }
 .MapResponsive iframe {
-	border-radius: 0px 0px 15px 15px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .HeroTitle h1 {
@@ -754,7 +825,7 @@ h1 .HeroTitle {
     background-position:  70% 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 20rem;
+    min-height: 30rem;
     margin: 40% auto auto auto;
   }
   .HeroMobile {
@@ -785,13 +856,29 @@ h1 .HeroTitle {
     min-width: 30px;
   }
 
+  .ReversedRow {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+  }
     .LeftDetails table tr td {
         font-size: 15px;
         border-bottom: 10px solid transparent;
     }
+
+
+
     .TableDetails {
       padding: 5px;
       font-size: 16px;
+    }
+
+    .MapResponsive iframe {
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    .CenterDetailsMobile {
+      min-height: 5rem;
     }
 
 }
@@ -801,10 +888,11 @@ h1 .HeroTitle {
     padding: 30px 0px 0px 0px;
     position: relative; 
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
-    background-position: bottom center;
+    background-position:  70% 100%;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 0;
+    background-size: cover;
+    min-height: 20rem;
+    margin: 40% auto auto auto;
   }
 
   .HeroMobileCTA {
@@ -815,6 +903,10 @@ h1 .HeroTitle {
     padding-bottom: 10px;
     margin: 0 0 30px 0;
     margin-bottom: 30px;
+  }
+
+  .MapResponsive iframe {
+    border-radius: 15px 15px 0px 0px;
   }
 }
 

@@ -6,6 +6,9 @@ export const NeckPain = require('./neckpain.png');
 export const SportsInjury = require('./sports-injury.png');
 export const RunMarathon = require ('./people-running-marathon.jpeg')
 export const WomanOnTrack = require('./woman-in-red-tank-top-and-black-shorts-running-on-track-3763996.jpg');
+export const Hiking = require('./hiking.jpg');
+export const Janelli = require('./janelli.jpg');
+export const Rafting = require('./rafting.jpg');
 
 /*export const Block2 = require('./featuredblock2.jpg');
 export const Block3 = require('./featuredblock3.jpg');

@@ -6,6 +6,7 @@ import SideNav, { MenuIcon } from 'react-simple-sidenav';
 React.createClass({
     render() {
       return(
+        <>
         <MenuIcon onClick={() => this.setState({showNav: true})}/>
   
         <SideNav
@@ -18,6 +19,7 @@ React.createClass({
           <a target='_blank' href='https://www.npmjs.com/package/react-simple-sidenav'>Install via npm</a>,
           <a target='_blank' href='https://gauravchl.github.io/react-simple-sidenav/demo/'>demo</a>
           ]} />
+          </>
       )
     }
   })

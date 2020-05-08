@@ -25,10 +25,12 @@
 .nav-link:active {
 	background: #FFF;
 	color: rgba(3,151,215,1)!important;
-    border-radius: 50px;
-    
+    border-radius: 50px;   
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(3,151,215,1);
+}
 
 
 .NoMobile {

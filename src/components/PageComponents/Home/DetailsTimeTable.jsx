@@ -9,7 +9,7 @@ import { Link } from 'gatsby'
 import homeStyles from "./home.module.css";
 
 const DetailsTimeTable = () => (
-<div>
+<div className="NoMobile">
   <section className={homeStyles.CenterDetails}>
     <Container>
       <Row>

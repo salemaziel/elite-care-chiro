@@ -137,18 +137,21 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink}  to="/treatments">
               Treatments
             </Link>,
-            <Link rel="preload" className={navStyles.SideNavLink} to="/injuries">
-              Injuries
-            </Link>,
+            <Link rel="preload" className={navStyles.SideNavLink} to="/about">
+            About
+          </Link>,            
             <Link rel="preload" className={navStyles.SideNavLink} to="/contact">
               Contact
             </Link>,
-            <Link rel="preload" className={navStyles.SideNavLink} to="/schedule">
-              Schedule
-            </Link>
+                <Button
+                className={navStyles.NavBook}
+                onClick={() => navigateTo("/book")}
+              >
+                Schedule
+              </Button>
           ]}
           itemStyle={{
-            background: "",
+            background: 'inherit',
             color: "#fff",
             fontSize: "2rem",
             padding: "10px 0",

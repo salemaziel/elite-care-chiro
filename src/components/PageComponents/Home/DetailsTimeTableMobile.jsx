@@ -10,24 +10,29 @@ import homeStyles from "./home.module.css";
 
 const DetailsTimeTableMobile = () => (
 <div className="NoDesktop">
-  <section className={homeStyles.CenterDetails}>
+  <section className={homeStyles.CenterDetailsMobile}>
     <Container>
       <Row>
         <div className="col-md-12">
           <h2>Elite care chiropractic center</h2>
-          <h3>is owned and managed by Linda jannelli, D.C and Rob Rich. D.C</h3>
+          <h3>is owned and managed by Linda Jannelli, D.C and Rob Rich. D.C</h3>
         </div>
       </Row>
     </Container>
   </section>
   <section className={homeStyles.timetable}>
     <Container>
-      <Row style={{wrap: 'wrap-reverse'}}>
+      <Row>
         <div className="col-md-12">
           <div className={homeStyles.TimeTable}>
-            <div className="row d-flex flex-row">
-              <div className="col-md-6 my-auto">
+            {/*<div className="row d-flex flex-row">*/}
+            <Row className={homeStyles.ReversedRow}>
+              <Col>
                 <div className={homeStyles.LeftDetails}>
+                  <div className={homeStyles.AddressTitle}>
+                    <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 109</h2>
+                    <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024, USA</h3>
+                  </div>
                   <table>
                     <tbody>
                       <tr>
@@ -58,21 +63,19 @@ const DetailsTimeTableMobile = () => (
                     </tbody>
                   </table>
                 </div>
-              </div>
-              <div className="col-md-6 my-auto">
+              </Col>
+              <Col>
                 <div className={homeStyles.MapResponsive}>
-                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameBorder={0} style={{border: 0}} allowFullScreen />
+                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=place_id:ChIJNT5NO48L3IARRWKVIPGczIo" frameBorder={0} style={{border: 0}} allowFullScreen />
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </div>
       </Row>
     </Container>
   </section>
 </div>
-
-
 )
 
 export default DetailsTimeTableMobile
