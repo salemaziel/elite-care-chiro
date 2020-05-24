@@ -13,7 +13,7 @@ const TreatmentsPage = () => (
 <Banner />
 <Container>
 <Row>
-    <Col xs={4}>
+    <Col xs={4} className='NoMobile'>
     <SideColumn />
     </Col>
     <Col>
