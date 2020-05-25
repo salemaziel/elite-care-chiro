@@ -180,7 +180,7 @@ class NavBar extends React.Component {
   </NavItem>*/}
                 <Button
                   className={navStyles.NavBook}
-                  onClick={() => navigateTo("/book")}
+                  onClick={() => navigateTo("/schedule")}
                 >
                   Schedule
                 </Button>
