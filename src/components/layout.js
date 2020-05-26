@@ -17,6 +17,8 @@ import "./layout.css";
 import '../css/main.css'
 import NavMobile from "./NavMobile";
 
+import Footer from './Footer'
+
 const Layout = ({ children }) => {
 //  const data = useStaticQuery(graphql`
 //    query SiteTitleQuery {
@@ -38,7 +40,7 @@ const Layout = ({ children }) => {
         {` `}
         <a href="https://salemaziel.com">Salem Aziel</a>
   </footer>*/}
-  <div />
+      <Footer />
     </>
   );
 };

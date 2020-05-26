@@ -10,7 +10,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavItem from 'react-bootstrap/NavItem'
+import NavItem from "react-bootstrap/NavItem";
 
 import NavDropdown from "react-bootstrap/NavDropdown";
 
@@ -64,7 +64,7 @@ class NavBar extends React.Component {
                     About
                   </Nav.Link>
                 </NavItem>
-              {/*  <NavItem href="/treatments">
+                {/*  <NavItem href="/treatments">
                   <Nav.Link as={Link} activeClassName="active" to="/treatments">
                     Treatments
                   </Nav.Link>
@@ -74,7 +74,7 @@ class NavBar extends React.Component {
                     Services
                   </Nav.Link>
       </NavItem> */}
-              <NavDropdown
+                <NavDropdown
                   as={Link}
                   href="/treatments"
                   to="/treatments"
@@ -93,12 +93,12 @@ class NavBar extends React.Component {
                     Myofascial Release{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="treatments/#">
-                  Physiotherapy Protocols{" "}
+                    Physiotherapy Protocols{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="treatments/#">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
-                 {/* <NavDropdown.Item eventKey="services/#">
+                  {/* <NavDropdown.Item eventKey="services/#">
                     Shingle{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="services/#">
@@ -108,9 +108,6 @@ class NavBar extends React.Component {
                     All Services
                   </NavDropdown.Item>*/}
                 </NavDropdown>
-
-
-
 
                 <NavDropdown
                   as={Link}
@@ -131,12 +128,12 @@ class NavBar extends React.Component {
                     Myofascial Release{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="services/#">
-                  Physiotherapy Protocols{" "}
+                    Physiotherapy Protocols{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="services/#">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
-                 {/* <NavDropdown.Item eventKey="services/#">
+                  {/* <NavDropdown.Item eventKey="services/#">
                     Shingle{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="services/#">
@@ -180,7 +177,7 @@ class NavBar extends React.Component {
   </NavItem>*/}
                 <Button
                   className={navStyles.NavBook}
-                  onClick={() => navigateTo("/book")}
+                  onClick={() => navigateTo("/schedule")}
                 >
                   Schedule
                 </Button>
@@ -230,9 +227,12 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink} to="/contact">
               Contact
             </Link>,
+            <Link rel="preload" className={navStyles.SideNavLink} to="/newpatients">
+              New Patients
+            </Link>,
             <Button
               className={navStyles.NavBook}
-              onClick={() => navigateTo("/book")}
+              onClick={() => navigateTo("/schedule")}
             >
               Schedule
             </Button>,
