@@ -53,6 +53,18 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+//    {
+//      resolve: `gatsby-source-cosmicjs`,
+//      options: {
+//        bucketSlug: `ace7df90-a04b-11ea-8410-0bfd2b60b0e3`, // Get this value in Bucket > Settings
+//        objectTypes: [`posts`],
+//        // If you have enabled read_key to fetch data (optional).
+//        apiAccess: {
+//          read_key: `CdPT6KB8Oew3IaPOw9P5SRiuJ0WpopRVfHWLs8NpzOlhUsPEjx`, // Get this value in Bucket > Settings
+//        },
+//        localMedia: true // Download media locally for gatsby image (optional)
+//      }
+//    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
