@@ -202,7 +202,6 @@ class NavBar extends React.Component {
                 justifyContent: "center",
                 alignContent: "center",
                 alignItems: "center",
-                height: "100px",
               }}
             >
               {/* <Link>
@@ -224,20 +223,21 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink} to="/about">
               About
             </Link>,
+                        <Link
+                        rel="preload"
+                        className={navStyles.SideNavLink}
+                        to="/contact"
+                      >
+                        Contact
+                      </Link>,
             <Link
               rel="preload"
               className={navStyles.SideNavLink}
               to="/services"
             >
-              Services
+              Services & Treatments
             </Link>,
-            <Link
-              rel="preload"
-              className={navStyles.SideNavLink}
-              to="/treatments"
-            >
-              Treatments
-            </Link>,
+
 
             <Link
               rel="preload"
@@ -267,6 +267,7 @@ class NavBar extends React.Component {
             width: "70%",
             background: "rgba(3,151,215,0.9)",
             color: "white!important",
+            maxHeight: '100vh'
           }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}

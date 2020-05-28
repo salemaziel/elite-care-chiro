@@ -326,6 +326,11 @@ form button:disabled {
 	pointer-events: none;
 }
 
+.lower-box{
+    margin: auto;
+    padding: 1rem 1rem 2rem;
+}
+
 
 @media screen and (max-width: 1680px) {
     .NoMobile{

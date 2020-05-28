@@ -1,7 +1,15 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const AllServices = () => (
 <section className="services-page-section">
+  <div style={{
+    textAlign: 'center',
+    margin: 'auto',
+    padding: '1rem 0 2rem',
+  }}>
+    <h1>Services We Offer</h1>
+  </div>
   <div className="auto-container">
     <div className="row clearfix">
       {/*Services Block Two*/}
@@ -9,12 +17,10 @@ const AllServices = () => (
         <div className="inner-box">
           <div className="image">
             <img src="images/resource/services-5.jpg" alt />
-            <div className="overlay">
-              <a href="massage-therapy.html" className="theme-btn btn-style-five">Know more</a>
-            </div>
+
           </div>
           <div className="lower-box">
-            <h3><a href="massage-therapy.html">Adjustive Technique</a></h3>
+            <h3><Link to="/services/adjustive-technique">Adjustive Technique</Link></h3>
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
@@ -24,12 +30,10 @@ const AllServices = () => (
         <div className="inner-box">
           <div className="image">
             <img src="images/resource/services-6.jpg" alt />
-            <div className="overlay">
-              <a href="physiotherapy-services.html" className="theme-btn btn-style-five">Know more</a>
-            </div>
+
           </div>
           <div className="lower-box">
-            <h3><a href="physiotherapy-services.html">Gait Evaluation</a></h3>
+            <h3><Link to="/services/gait-evaluation">Gait Evaluation</Link></h3>
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
@@ -39,12 +43,10 @@ const AllServices = () => (
         <div className="inner-box">
           <div className="image">
             <img src="images/resource/services-7.jpg" alt />
-            <div className="overlay">
-              <a href="chiroparctic-therapy.html" className="theme-btn btn-style-five">Know more</a>
-            </div>
+
           </div>
           <div className="lower-box">
-            <h3><a href="chiroparctic-therapy.html">Myofascial Release</a></h3>
+            <h3><Link to="/services/myofascial-release">Myofascial Release</Link></h3>
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
@@ -54,12 +56,10 @@ const AllServices = () => (
         <div className="inner-box">
           <div className="image">
             <img src="images/resource/services-8.jpg" alt />
-            <div className="overlay">
-              <a href="sport-injury.html" className="theme-btn btn-style-five">Know more</a>
-            </div>
+
           </div>
           <div className="lower-box">
-            <h3><a href="sport-injury.html">Orthotics</a></h3>
+            <h3><Link to="/services/orthotics">Orthotics</Link></h3>
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
@@ -69,12 +69,10 @@ const AllServices = () => (
         <div className="inner-box">
           <div className="image">
             <img src="images/resource/services-9.jpg" alt />
-            <div className="overlay">
-              <a href="heat-and-cold-therapy.html" className="theme-btn btn-style-five">Know more</a>
-            </div>
+
           </div>
           <div className="lower-box">
-            <h3><a href="heat-and-cold-therapy.html">Physiotherapy Protocols</a></h3>
+            <h3><Link to="/services/physiotherapy-protocols">Physiotherapy Protocols</Link></h3>
             <div className="text">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
           </div>
         </div>
