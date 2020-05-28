@@ -2,6 +2,7 @@ import { Link, navigateTo } from "gatsby";
 import React from "react";
 import SideNav from "react-simple-sidenav";
 
+
 //import { Button, Navbar, Nav, NavItem, Container } from "react-bootstrap";
 import navStyles from "./nav.module.css";
 import { LogoLG } from "../images/index";
@@ -86,7 +87,7 @@ class NavBar extends React.Component {
                   title="Treatments"
                   id="nav-dropdown-treatments"
                 >
-                  <NavDropdown.Item eventKey="treatments/motor-vehicle-collision">
+                  <NavDropdown.Item eventKey="treatments/motor-vehicle-collisions">
                     {" "}
                     Motor Vehicle Collision{" "}
                   </NavDropdown.Item>
