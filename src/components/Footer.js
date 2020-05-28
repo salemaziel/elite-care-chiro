@@ -133,7 +133,7 @@ const Footer = () => (
                         style={{ color: "white" }}
                         data-appointlet-organization="elite-care-chiropractic"
                       >
-                        Schedule
+                        Book Online
                       </a>
                     </li>
                   </ul>

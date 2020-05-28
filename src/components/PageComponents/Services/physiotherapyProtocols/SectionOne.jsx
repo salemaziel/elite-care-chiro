@@ -59,7 +59,7 @@ const SectionOne = () => (
               {/*Two Column*/}
             </div>
             <div className={serviceStyles.ServicesTopImage}>
-              <img src={WomanOnTrack} alt='' className="img-fluid" />
+              <img src={GreenShirtGuy} alt='' className="img-fluid" />
             </div>
          {/*   <h2>Therapy Details</h2> */}
             <div className={serviceStyles.InnerText}>

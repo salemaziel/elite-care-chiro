@@ -14,7 +14,8 @@ export const RoadRunners = require('./westcoastroadrunners.png')
 export const Newton = require('./newton.png')
 export const Intraining = require('./intraining.png')
 export const Multisports = require('./multisports.png')
-
+export const GreenShirtGuy = require('./AdobeStock_205462952_Preview.jpeg')
+export const GolfOrange = require('./golf-orange.jpeg')
 
 
 

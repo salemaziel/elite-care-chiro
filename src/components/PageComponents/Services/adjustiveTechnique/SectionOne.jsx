@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import { WomanOnTrack } from '../../../../images/index'
+import { WomanOnTrack, GreenShirtGuy } from '../../../../images/index'
 
 
 import serviceStyles from '../services.module.css'
@@ -59,7 +59,7 @@ const SectionOne = () => (
               {/*Two Column*/}
             </div>
             <div className={serviceStyles.ServicesTopImage}>
-              <img src={WomanOnTrack} alt='' className="img-fluid" />
+              <img src={GreenShirtGuy} alt='' className="img-fluid" />
             </div>
          {/*   <h2>Therapy Details</h2> */}
             <div className={serviceStyles.InnerText}>

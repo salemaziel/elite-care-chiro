@@ -2,6 +2,8 @@ import React, { Component } from "react"
 
 import { 
   WomanOnTrack,
+  GolfOrange,
+  GreenShirtGuy
 
  } from "../../../images/index"
 import Container from "react-bootstrap/Container"
@@ -20,7 +22,7 @@ class AboutSection3 extends Component {
               <Col>
                 <div className={aboutStyle.Box}>
                   <div className={aboutStyle.BoxImg}>
-                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
+                    <img src={GolfOrange} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>
@@ -52,7 +54,7 @@ class AboutSection3 extends Component {
                 <Col>
               <div className={aboutStyle.Box}>
               <div className={aboutStyle.BoxImg}>
-                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
+                    <img src={GreenShirtGuy} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>
@@ -73,7 +75,7 @@ class AboutSection3 extends Component {
               <Col>
               <div className={aboutStyle.Box}>
               <div className={aboutStyle.BoxImg}>
-                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
+                    <img src={GolfOrange} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>

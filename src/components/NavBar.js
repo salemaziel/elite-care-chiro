@@ -2,7 +2,6 @@ import { Link, navigateTo } from "gatsby";
 import React from "react";
 import SideNav from "react-simple-sidenav";
 
-
 //import { Button, Navbar, Nav, NavItem, Container } from "react-bootstrap";
 import navStyles from "./nav.module.css";
 import { LogoLG } from "../images/index";
@@ -184,9 +183,9 @@ class NavBar extends React.Component {
                   /*href="https://elite-care-chiropractic.appointlet.com/s/30-minute-appointment"*/
                   className={navStyles.NavBook}
                   data-appointlet-organization="elite-care-chiropractic"
-                 /* onClick={() => navigateTo("/schedule")} */
+                  /* onClick={() => navigateTo("/schedule")} */
                 >
-                  Schedule
+                  Book Online
                 </Button>
               </Nav>
             </div>
@@ -213,7 +212,6 @@ class NavBar extends React.Component {
             background: "inherit",
             backgroundColor: "transparent",
             color: "black",
-            width: "200px",
             margin: "auto",
           }}
           items={[
@@ -223,22 +221,9 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink} to="/about">
               About
             </Link>,
-                        <Link
-                        rel="preload"
-                        className={navStyles.SideNavLink}
-                        to="/contact"
-                      >
-                        Contact
-                      </Link>,
-            <Link
-              rel="preload"
-              className={navStyles.SideNavLink}
-              to="/services"
-            >
-              Services & Treatments
+            <Link rel="preload" className={navStyles.SideNavLink} to="/contact">
+              Contact
             </Link>,
-
-
             <Link
               rel="preload"
               className={navStyles.SideNavLink}
@@ -246,12 +231,20 @@ class NavBar extends React.Component {
             >
               New Patients
             </Link>,
+
+            <Link
+              rel="preload"
+              className={navStyles.SideNavLink}
+              to="/services"
+            >
+              Services & Treatments
+            </Link>,
             <Button
               className={navStyles.NavBook}
               data-appointlet-organization="elite-care-chiropractic"
-             /* onClick={() => navigateTo("/schedule")}*/
+              /* onClick={() => navigateTo("/schedule")}*/
             >
-              Schedule
+             Book Online
             </Button>,
           ]}
           itemStyle={{
@@ -267,7 +260,7 @@ class NavBar extends React.Component {
             width: "70%",
             background: "rgba(3,151,215,0.9)",
             color: "white!important",
-            maxHeight: '100vh'
+            maxHeight: "100vh",
           }}
           showNav={this.state.showNav}
           onHideNav={() => this.setState({ showNav: false })}

@@ -64,13 +64,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-tawk`,
-      options: {
-       // tawkId: "5ea0b46f69e9320caac662db",
-            // tawkID = widget ID
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `EliteCareChiropractic`,

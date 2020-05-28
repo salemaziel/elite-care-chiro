@@ -38,7 +38,7 @@ const SideColumn = () => (
             </div>
 
             <div>
-                <img src={WomanOnTrack} alt='' width="100%" style={{ margin: '2rem 0'}}/>
+                <img src={GreenShirtGuy} alt='' width="100%" style={{ margin: '2rem 0'}}/>
             </div>
         </aside>
         </Container>

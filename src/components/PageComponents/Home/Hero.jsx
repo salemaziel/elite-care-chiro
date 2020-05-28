@@ -26,7 +26,7 @@ const Hero = () => (
            {" "}
           </p>
           <Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
-            Schedule Appointment
+            Book Online
           </Button>{" "}
         </div>
       </Row>
