@@ -2,8 +2,17 @@
     display: block;
     margin: 0;
     padding: 0;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
     justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
     align-content: center;
 }
 

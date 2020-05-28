@@ -28,6 +28,10 @@ const DetailsTimeTable = () => (
             <div className="row d-flex flex-row">
               <div className="col-md-6 my-auto">
                 <div className={homeStyles.LeftDetails}>
+                <div className={homeStyles.AddressTitle}>
+                    <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 302</h2>
+                    <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024, USA</h3>
+                  </div>
                   <table>
                     <tbody>
                       <tr>
@@ -36,22 +40,22 @@ const DetailsTimeTable = () => (
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Tuesday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Wednesday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Thursday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Friday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
@@ -61,7 +65,7 @@ const DetailsTimeTable = () => (
               </div>
               <div className="col-md-6 my-auto">
                 <div className={homeStyles.MapResponsive}>
-                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" frameBorder={0} style={{border: 0}} allowFullScreen />
+                  <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=place_id:ChIJNT5NO48L3IARRWKVIPGczIo" frameBorder={0} style={{border: 0}} allowFullScreen />
                 </div>
               </div>
             </div>

@@ -38,9 +38,9 @@ const SectionOne = () => (
         </div>
         <h4>Contact Info</h4>
         <ul className="offer-list">
-          <li>562, Mallin Street, New York,<br /> NY 100 254</li>
-          <li>Phone : +1800 654 7895</li>
-          <li>Email : contact@healing.co.in</li>
+          <li>317 N El Camino Real, Encinitas, <br /> CA 92024</li>
+          <li>Phone : 1-760-710-1901</li>
+          <li>Email : info@elitecarechiropractic.com</li>
         </ul>
       </div>
     </div>

@@ -11,6 +11,7 @@ import Specialize from './Specialize'
 import Testimonial from './Testimonial'
 import DetailsTimeTable from './DetailsTimeTable'
 import DetailsTimeTableMobile from './DetailsTimeTableMobile'
+import Affiliates from './Affiliates'
 
 import HeroMobileCTA from './HeroMobileCTA'
 
@@ -23,6 +24,7 @@ const HomePage = () => (
 <MeetDoctor />
 <Specialize />
 <Testimonial />
+<Affiliates />
 <DetailsTimeTable />
 </>
 )

@@ -17,9 +17,9 @@ import { Link } from "gatsby"
 
 const Footer = () => (
     <section className={footerStyle.SectionFooter}>
-        <Container>
+        <Container fluid>
             <Row className={footerStyle.FooterRow}>
-            <Col xs={1} className={footerStyle.ColNoMobile}></Col>
+           {/* <Col xs={1} className={footerStyle.ColNoMobile}></Col> */}
           <Col>
           <div className={footerStyle.CenterFooter}>
             <div className={footerStyle.LogoBlock}>
@@ -51,7 +51,7 @@ const Footer = () => (
             </div>
             </div>
           </Col>
-          <Col xs={6}>
+          <Col >
             <div className={footerStyle.Middle}>
               <p>
                 Elite Care Chiropractic provides Service to Escondido, San
@@ -141,7 +141,7 @@ const Footer = () => (
               </div>
             </div>{" "}
           </Col>
-          <Col xs={1} className={footerStyle.ColNoMobile}></Col>
+      {/*    <Col xs={1} className={footerStyle.ColNoMobile}></Col> */}
             </Row>
         </Container>
     </section>

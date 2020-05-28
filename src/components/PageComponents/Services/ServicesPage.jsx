@@ -1,14 +1,17 @@
 import React from 'react'
 import Banner from '../../banner'
-
-import SectionOne from './SectionOne'
-import './services.css'
-
+import AllServices from './allServices'
+import AllTreatments from '../Treatments/allTreatments'
 
 const ServicesPage = () => (
     <>
     <Banner />
-    <SectionOne />
+    <AllServices />
+    <br />
+    <hr />
+    <br />
+    <AllTreatments />
+
     </>
 )
 

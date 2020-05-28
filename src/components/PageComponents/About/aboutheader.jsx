@@ -1,28 +1,22 @@
 import React from 'react';
-
+import aboutStyle from './about.module.css'
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 class AboutHeader extends React.Component {
   render() {
     return (
-      <section
-        className="inner-page-banner servicesBanner"
-        >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="breadcrumbs-area">
-                <h1>About Us</h1>
-                <ul>
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li>About</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <>
+      <Row className={aboutStyle.Titlerow}>
+      <Col>
+      <div className={aboutStyle.Title}>
+        <h1>
+          About Elite Care Chiropractic
+        </h1>
+      </div>
+      </Col>
+    </Row>
+    </>
     );
   }
 }

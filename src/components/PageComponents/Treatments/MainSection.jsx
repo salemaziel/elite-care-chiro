@@ -24,15 +24,10 @@ const MainSection = () => (
     <Row>
       <Col>
         <div style={{ margin: "1.5rem auto" }}>
-          <img src={WomanOnTrack} alt="" width="100%" height={200} />
+          <img src={WomanOnTrack} alt="" width="100%"  />
         </div>
       </Col>
 
-      <Col>
-        <div style={{ margin: "1.5rem auto" }}>
-          <img src={WomanOnTrack} alt="" width="100%" height={200} />
-        </div>
-      </Col>
     </Row>
     <Container style={{ margin: "3% auto 5%" }}>
     <Row>

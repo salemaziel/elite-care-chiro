@@ -4,23 +4,25 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-import { OldCouple } from "../../../images/index";
+import { OldCouple, Janelli, Hiking } from "../../../images/index";
 import { Link } from "gatsby";
 
 import "../../../images/index";
-import homeStyles from "../Home/home.module.css";
+import aboutStyles from "./about.module.css";
 
 const AboutDoctors = () => (
-  <section className={homeStyles.MeetDoctorSection}>
+  <section className={aboutStyles.MeetDoctorSection}>
+
+
     <Container>
-      <div className="row d-flex flex-row">
+      <div className="row d-flex flex-row" id="janelli">
         <div className="col-md-5 my-auto text-center">
-          <div className={homeStyles.DoctorImage}>
-            <img src={OldCouple} className="img-fluid" />{" "}
+          <div className={aboutStyles.DoctorImage}>
+            <img src={Janelli} className="img-fluid" />{" "}
           </div>
         </div>
         <div className="col-md-7 my-auto">
-          <div className={homeStyles.DoctorDetails}>
+          <div className={aboutStyles.DoctorDetails} >
             <h2> Meet your Doctor </h2>
             <h3>Dr. Linda Jannelli, D.C.</h3>
             <p>
@@ -46,14 +48,18 @@ const AboutDoctors = () => (
           </div>
         </div>
       </div>
-      <div className="row d-flex flex-row flex-row-reverse">
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="row d-flex flex-row flex-row-reverse" id="rich">
         <div className="col-md-5 my-auto text-center">
-          <div className={homeStyles.DoctorImage}>
-            <img src={OldCouple} className="img-fluid" />
+          <div className={aboutStyles.DoctorImage}>
+            <img src={Hiking} className="img-fluid" />
           </div>
         </div>
         <div className="col-md-7 my-auto">
-          <div className={homeStyles.DoctorDetails}>
+          <div className={aboutStyles.DoctorDetails} >
             <h2> Meet your Doctor </h2>
             <h3>Dr. Rob Rich, D.C.</h3>
             <p>
@@ -62,9 +68,9 @@ const AboutDoctors = () => (
             <p>
               He is a certified practitioner of several adjusting techniques as well as Active Release Technique (ART) and Applied Kinesiology. He brings a strong analytical and compassionate focus to his approach in treating spinal and extremity related injuries. Dr Rich is an avid trail runner who enjoys racing at the marathon and 50k distances. He also is a skilled guitarist.
             </p>
-            <Button as={Link} to="/aboutus" rel="preload" className="blue-btns">
+          {/*  <Button as={Link} to="/aboutus" rel="preload" className="blue-btns">
               Read More
-            </Button>{" "}
+</Button>{" "} */}
           </div>
         </div>
       </div>

@@ -1,21 +1,32 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
+import { WomanOnTrack } from '../../../../images/index'
+
+
+import serviceStyles from '../services.module.css'
 
 const SectionOne = () => (
-<div className="sidebar-page-container service-page">
-  <div className="auto-container">
-    <div className="row clearfix">
+<div className={serviceStyles.sidebarPageContainer}>
+  <div className={serviceStyles.autoContainer}>
+    <Row>
       {/*Sidebar Side*/}
       <div className="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
-        <aside className="sidebar default-sidebar">
+        <aside className={serviceStyles.AsideCategories}>
           {/*Blog Category Widget*/}
-          <div className="sidebar-widget sidebar-blog-category">
-            <ul className="blog-cat">
-              <li><a href="massage-therapy.html">Massage Therapy</a></li>
-              <li><a href="physiotherapy-services.html">Physio Therapy</a></li>
-              <li className="active"><a href="chiroparctic-therapy.html">Chiropractic Therapy</a></li>
-              <li><a href="sport-injury.html">Sport Injuries</a></li>
-              <li><a href="heat-and-cold-therapy.html">Heat &amp; Cold Therapy</a></li>
-              <li><a href="work-injury.html">Work Injuries</a></li>
+          <div className={serviceStyles.sidebarWidget}>
+            <ul className={serviceStyles.Categories}>
+            <li className={serviceStyles.active}><Link to="/services/adjustive-technique">Adjustive Technique</Link></li>
+            <li><Link to="/services/gait-evaluation">Gait Evaluation</Link></li>
+              <li><Link to="/services/myofascial-release">Myofascial Release</Link></li>
+              <li className={serviceStyles.active}><Link to="/treatments/motor-vehicle-collisions">Motor Vehicle Collisions</Link></li>
+              <li><Link to="/treatments/neck-and-back-pain">Neck and Back Pain</Link></li>
+              <li><Link to="/services/orthotics">Orthotics</Link></li>
+              <li ><Link to="/services/physiotherapy-protocols">PhysioTherapy Protocols</Link></li>
+              <li><Link to="/treatments/sports-injuries">Sport Injuries</Link></li>
+
             </ul>
           </div>
           {/*Brochure*/}
@@ -29,51 +40,57 @@ const SectionOne = () => (
             </div>
             </div> */}
           {/*Info Widget*/}
-          <div className="sidebar-widget list-widget">
+          <div className={serviceStyles.ListWidget}>
             <ul>
-              <li><span className="icon fa fa-phone" /> 1800 456 7890</li>
-              <li><span className="icon fa fa-send" /> info@healing.co.in</li>
+              <li><span className="icon fa fa-phone" style={{fontSize: '16px'}}/> 1-760-710-1901</li>
+              <li><span className="icon fa fa-send" style={{fontSize: '16px'}}/> info@elitecarechiropractic.com</li>
             </ul>
           </div>
         </aside>
       </div>
       {/*Content Side*/}
-      <div className="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12">
-        <div className="services-single">
-          <div className="inner-box">
-            <div className="image">
-              <img src="images/resource/services-13.jpg" alt />
-            </div>
-            <h2>Therapy Details</h2>
-            <div className="text">
+      <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+        <div className={serviceStyles.ServicesSingle}>
+          <div className={serviceStyles.InnerBox}>
+          <h2>Therapy Details</h2>
+            <div className={serviceStyles.InnerText}>
               <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
               <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
               {/*Two Column*/}
-              <div className="two-column row clearfix">
-                <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            </div>
+            <div className={serviceStyles.ServicesTopImage}>
+              <img src={WomanOnTrack} alt='' className="img-fluid" />
+            </div>
+         {/*   <h2>Therapy Details</h2> */}
+            <div className={serviceStyles.InnerText}>
+            {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
+              {/*Two Column* /} */}
+              <div className={serviceStyles.ColumnTwo}>
+                <Col>
                   <h2>Benefit of Therapy</h2>
                   <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved.</p>
-                  <ul className="list-style-one">
+                  <ul className={serviceStyles.ServicesTherapyList}>
                     <li>Those who do not know how to pursue</li>
                     <li>Pleasure rationally encounter</li>
                     <li>Consequences that are extremely painful.</li>
                     <li>Nor again is there anyone who loves or pursues</li>
                   </ul>
-                </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                  <div className="image">
-                    <img src="images/resource/services-14.jpg" alt />
+                </Col>
+                <Col>
+                  <div className="img-fluid">
+                    <img src={WomanOnTrack} alt='' className="img-fluid"></img> 
                   </div>
-                </div>
+                </Col>
               </div>
             </div>
-            <h3>Why Choose Us</h3>
+         {/*   <h3>Why Choose Us</h3>
             <div className="accordian-section">
               <div className="row clearfix">
                 <div className="column col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                  {/*Accordian Box*/}
+                  {/*Accordian Box* /}
                   <ul className="accordion-box">
-                    {/*Block*/}
+                    {/*Block* /}
                     <li className="accordion block">
                       <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Dynamically procrastinate B2C users after installed.</div>
                       <div className="acc-content">
@@ -82,7 +99,7 @@ const SectionOne = () => (
                         </div>
                       </div>
                     </li>
-                    {/*Block*/}
+                    {/*Block* /}
                     <li className="accordion block">
                       <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Nanotechnology immersion along the information.</div>
                       <div className="acc-content">
@@ -91,7 +108,7 @@ const SectionOne = () => (
                         </div>
                       </div>
                     </li>
-                    {/*Block*/}
+                    {/*Block* /}
                     <li className="accordion block">
                       <div className="acc-btn active"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Taking seamless key performance indicators offline.</div>
                       <div className="acc-content current">
@@ -100,7 +117,7 @@ const SectionOne = () => (
                         </div>
                       </div>
                     </li>
-                    {/*Block*/}
+                    {/*Block* /}
                     <li className="accordion block">
                       <div className="acc-btn"><div className="icon-outer"><span className="icon icon-plus fa fa-plus" /> <span className="icon icon-minus fa fa-minus" /></div>Collaboratively administrate empowered markets.</div>
                       <div className="acc-content">
@@ -110,22 +127,22 @@ const SectionOne = () => (
                       </div>
                     </li>
                   </ul>
-                </div>
+         </div> */}
                 <div className="column col-lg-4 col-md-12 col-sm-12 col-xs-12">
                   <div className="visit-box">
-                    <div className="inner-box">
+                    <div className={serviceStyles.InnerBox}>
                       <h2>Visit Today</h2>
-                      <div className="text">You'll know the minute you arrive this is the place. We are here to surpass your desires.</div>
+                      <div className={serviceStyles.InnerText}>You'll know the minute you arrive this is the place. We are here to surpass your desires.</div>
                       <a href="contact.html" className="theme-btn btn-style-six">Make Appointment</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+       {/*   </div> */}
+       {/* </div> */}
       </div>
-    </div>
+    </Row>
   </div>
 </div>
 

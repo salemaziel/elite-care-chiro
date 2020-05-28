@@ -1,27 +1,18 @@
 import React from 'react'
-
 import Banner from '../../banner'
-import SideColumn from './SideColumn'
-import MainSection from './MainSection'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-
+import AllServices from '../Services/allServices'
+import AllTreatments from './allTreatments'
 
 const TreatmentsPage = () => (
-<>
-<Banner />
-<Container>
-<Row>
-    <Col xs={4} className='NoMobile'>
-    <SideColumn />
-    </Col>
-    <Col>
-        <MainSection />
-    </Col>
-    </Row>
-    </Container>
-</>
+    <>
+    <Banner />
+    <AllTreatments />
+    <br />
+    <hr />
+    <br />
+    <AllServices />
+
+    </>
 )
 
 export default TreatmentsPage

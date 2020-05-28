@@ -9,6 +9,14 @@ export const WomanOnTrack = require('./woman-in-red-tank-top-and-black-shorts-ru
 export const Hiking = require('./hiking.jpg');
 export const Janelli = require('./janelli.jpg');
 export const Rafting = require('./rafting.jpg');
+export const Medical = require('./medical.png')
+export const RoadRunners = require('./westcoastroadrunners.png')
+export const Newton = require('./newton.png')
+export const Intraining = require('./intraining.png')
+export const Multisports = require('./multisports.png')
+
+
+
 
 /*export const Block2 = require('./featuredblock2.jpg');
 export const Block3 = require('./featuredblock3.jpg');

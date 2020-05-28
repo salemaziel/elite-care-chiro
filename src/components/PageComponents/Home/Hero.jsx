@@ -26,7 +26,7 @@ const Hero = () => (
             Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum
             Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum{" "}
           </p>
-          <Button as={Link} to="/book" rel="preload" className="blue-btns">
+          <Button as={Link} to="/schedule" rel="preload" className="blue-btns">
             Book Appointment
           </Button>{" "}
         </div>

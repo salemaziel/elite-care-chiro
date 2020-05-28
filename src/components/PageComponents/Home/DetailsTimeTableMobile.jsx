@@ -30,7 +30,7 @@ const DetailsTimeTableMobile = () => (
               <Col>
                 <div className={homeStyles.LeftDetails}>
                   <div className={homeStyles.AddressTitle}>
-                    <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 109</h2>
+                    <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 302</h2>
                     <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024, USA</h3>
                   </div>
                   <table>
@@ -41,22 +41,22 @@ const DetailsTimeTableMobile = () => (
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Tuesday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Wednesday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Thursday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>
                       <tr>
-                        <td>Monday</td>
+                        <td>Friday</td>
                         <td>:</td>
                         <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
                       </tr>

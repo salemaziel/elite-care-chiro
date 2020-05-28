@@ -173,7 +173,7 @@
 .SpecializeSection h2 {
   text-align: center;
   font-weight: 700;
-  color: #4d5973;
+  color: #6d0073;
   margin: 0px 0px 15px 0px;
   padding: 0px;
   text-transform: uppercase;
@@ -197,6 +197,9 @@
 .SpecializeTopMargin {
   position: relative; 
   margin-top: 50px;
+  margin: 50px 2rem;
+  padding: 2rem 5rem;
+
 }
 .SpecializeBox {
   position: relative; 
@@ -204,7 +207,9 @@
   border-radius: 10px;
   -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
-  margin-bottom: 50px;
+  margin: 0 1rem 50px;
+  width: auto;
+  height: auto;
 }
 .SpecializeBox img {
   border-radius: 10px 10px 0px 0px;
@@ -377,8 +382,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 	background: #FFFFFF;
 	display: block;
 	margin: auto;
-	width: 100%;
-	max-width: 890px;
+	width: 80%;
 	margin-top: -15%;
 	z-index: 2;
 	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
@@ -405,7 +409,8 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 	margin: 0px;
 	padding: 0px;
 	height: 35px;
-	border-bottom: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  text-align: right;
 }
 .LeftDetails table tr td:nth-child(2) {
 	text-align: center;
@@ -514,6 +519,65 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   font-size: 19px;
 
 }
+
+.AffilatesSection {
+	position: relative; 
+	padding: 75px 0px;
+}
+.AffiliatesMargin {
+	position: relative; 
+	margin-top: 75px;
+}
+.AffiliatesLeftArrow{
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #000000;
+	font-size: 50px;
+	cursor: pointer;
+}
+.AffiliatesRightArrow {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #000000;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.AffiliatesSlider {
+	position: relative; 
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 30px;
+}
+.AffiliatesBox {
+	position: relative; 
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	background: #FFFFFF;
+	border-radius: 10px;
+  width: 23.5%;
+  margin: auto;
+}
+.AffilatesSection h2 {
+	text-align: center;
+	font-weight: 700;
+	color: #4d5973;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.AffilatesSection h3 {
+	text-align: center;
+	font-weight: 400;
+	color: #302e31;
+	margin: 0px;
+	padding: 0px;
+}
+
 
 
 @media screen and (max-width:1680px) {
@@ -658,8 +722,17 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
     border-bottom: solid 1px rgba(0,0,0,.05);
     flex-direction: row;
     flex-wrap: nowrap;
+        -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
     justify-content: center;
+        -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
+        -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
     align-content: center;
     text-align: center;
     margin: 0;
@@ -689,6 +762,7 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 
   .NewPatientSection {
     padding: 50px 0px;
+    margin: 3rem auto;
     
   }
   .NewPatientSection h1 {
@@ -716,14 +790,50 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
   }
   .SpecializeTopMargin {
     margin-top: 25px;
+    display: block;
+    margin: 25px auto;
+    padding: 0px;
   }
   .SpecializeBox {
     margin-bottom: 25px;
+    width: auto;
   }
 
   .SucessSection h4 {
 	font-size: 18px;
 }
+
+.AffiliatesSlider {
+	position: relative; 
+	display: block;
+	justify-content: space-between;
+  padding: 2px 30px 0;
+}
+
+.AffiliatesBox {
+	position: relative; 
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	background: #FFFFFF;
+	border-radius: 10px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+
+.TimeTable {
+	position: relative; 
+	border-radius: 30px;
+	background: #FFFFFF;
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-top: -15%;
+	z-index: 2;
+	-webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.14);
+}
+
 }
 
 

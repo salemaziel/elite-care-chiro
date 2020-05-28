@@ -33,7 +33,7 @@
     padding: 1rem 2rem;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
+    color: white!important;
     background: #25ACDF;
     background-color: #25ACDF;
     border-color: #25ACDF;
@@ -60,6 +60,12 @@
     color: rgba(3,151,215,1);
 }
 */
+a.nav-link:active {
+    color: #6d0073;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #6d0073;
+}
 
 .navbar-light .navbar-nav .nav-link:focus {
     /*color: rgba(3,151,215,1);*/
@@ -77,6 +83,32 @@ a.dropdown-item {
     color: #25ACDF;
 }
 
+a.dropdown-item:hover,
+a.dropdown-item:active,
+a.dropdown-item:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #25ACDF;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(3,151,215);
+    border-color: rgb(3,151,215);
+    background-color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: rgb(3,151,215);
+    border-color: rgb(3,151,215);
+    background-color: white;
+}
+
+.navbar-toggler-icon {
+    color: rgb(3,151,215);
+    border-color: rgb(3,151,215);
+    background-color: white;
+}
 
 .NoMobile {
     display: block;
@@ -107,6 +139,19 @@ a.dropdown-item {
 
 
 @media screen and (max-width: 980px) {
+
+    .navbar-light .navbar-toggler {
+        color: rgb(3,151,215);
+        border-color: rgb(3,151,215);
+        background-color: white;
+    }
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        color: rgb(3,151,215);
+        border-color: rgb(3,151,215);
+        background-color: white;
+    }
     .NoMobile{
         display: none;
     }

@@ -58,7 +58,11 @@ class NavBar extends React.Component {
             />
             {/*<Navbar.Collapse id="basic-navbar-nav">*/}
             <div className={navStyles.NavBar}>
-              <Nav className="mr-auto">
+              <Nav
+                className="mr-auto"
+                defaultActiveKey="/"
+                onSelect={(selectedKey) => navigateTo(`${selectedKey}`)}
+              >
                 <NavItem href="/about">
                   <Nav.Link as={Link} activeClassName="active" to="/about">
                     About
@@ -82,23 +86,23 @@ class NavBar extends React.Component {
                   title="Treatments"
                   id="nav-dropdown-treatments"
                 >
-                  <NavDropdown.Item eventKey="treatments/#">
-                    Gait Evaluation
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/#">
-                    Orthotics
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/#">
+                  <NavDropdown.Item eventKey="treatments/motor-vehicle-collision">
                     {" "}
-                    Myofascial Release{" "}
+                    Motor Vehicle Collision{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/#">
+                  <NavDropdown.Item eventKey="treatments/neck-and-back-pain">
+                    Neck and Back Pain
+                  </NavDropdown.Item>
+                  <NavDropdown.Item eventKey="treatments/sports-injuries">
+                    Sports Injuries
+                  </NavDropdown.Item>
+                  {/*   <NavDropdown.Item eventKey="treatments/#">
                     Physiotherapy Protocols{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="treatments/#">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
-                  {/* <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/#">
                     Shingle{" "}
                   </NavDropdown.Item>
                   <NavDropdown.Item eventKey="services/#">
@@ -117,20 +121,20 @@ class NavBar extends React.Component {
                   title="Services"
                   id="nav-dropdown-services"
                 >
-                  <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/gait-evaluation">
                     Gait Evaluation
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/orthotics">
                     Orthotics
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/myofascial-release">
                     {" "}
                     Myofascial Release{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/physiotherapy-protocols">
                     Physiotherapy Protocols{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
+                  <NavDropdown.Item eventKey="services/adjustive-technique">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
                   {/* <NavDropdown.Item eventKey="services/#">
@@ -214,6 +218,16 @@ class NavBar extends React.Component {
             <Link rel="preload" className={navStyles.SideNavLink} to="/">
               Home
             </Link>,
+            <Link rel="preload" className={navStyles.SideNavLink} to="/about">
+              About
+            </Link>,
+            <Link
+              rel="preload"
+              className={navStyles.SideNavLink}
+              to="/services"
+            >
+              Services
+            </Link>,
             <Link
               rel="preload"
               className={navStyles.SideNavLink}
@@ -221,13 +235,12 @@ class NavBar extends React.Component {
             >
               Treatments
             </Link>,
-            <Link rel="preload" className={navStyles.SideNavLink} to="/about">
-              About
-            </Link>,
-            <Link rel="preload" className={navStyles.SideNavLink} to="/contact">
-              Contact
-            </Link>,
-            <Link rel="preload" className={navStyles.SideNavLink} to="/newpatients">
+
+            <Link
+              rel="preload"
+              className={navStyles.SideNavLink}
+              to="/newpatients"
+            >
               New Patients
             </Link>,
             <Button

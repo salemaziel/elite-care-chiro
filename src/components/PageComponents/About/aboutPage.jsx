@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 
 
-import AboutHeader from './aboutheader'
-import AboutSection1 from './aboutSection1';
+//import AboutHeader from './aboutheader'
+//import AboutSection1 from './aboutSection1';
 import AboutSection3 from './aboutSection3';
 
 //import ActionBanner2 from './actionBanner2'
-
+import AboutHeader from './aboutheader'
 import aboutStyle from './about.module.css'
 import Banner from '../../banner'
 
@@ -18,6 +18,13 @@ class AboutPage extends Component {
     return (
         <>
         <Banner />
+        <AboutHeader />
+        <AboutSection3 />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
         <AboutDoctors />
        
         

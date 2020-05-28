@@ -15,10 +15,9 @@ const Testimonial = () => (
     <Container>
       <Row>
         <div className="col-md-12">
-          <h2>At elite care Chiropractic</h2>
+          <h2>See What Our Clients Are Saying</h2>
           <h3>
-            We are proud to be the lead healthcare providers and supporters of
-            the following organization
+
           </h3>
         </div>
       </Row>

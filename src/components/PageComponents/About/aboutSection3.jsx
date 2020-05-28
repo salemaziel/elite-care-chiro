@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 
 import { 
-
+  WomanOnTrack,
 
  } from "../../../images/index"
 import Container from "react-bootstrap/Container"
@@ -16,22 +16,11 @@ class AboutSection3 extends Component {
       <>
         <section className={aboutStyle.Section}>
           <Container>
-            
-              <Row className={aboutStyle.Titlerow}>
-                <Col>
-              <div className={aboutStyle.Header}>
-                <h2 className={aboutStyle.Title}>Our Promise</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                </div>
-                </Col>
-              </Row>
               <Row className={aboutStyle.Titlerow}>
               <Col>
                 <div className={aboutStyle.Box}>
                   <div className={aboutStyle.BoxImg}>
-                    <img src="" alt="why choose" className="img-fluid" />
+                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>
@@ -39,7 +28,7 @@ class AboutSection3 extends Component {
                 <Col>
               <div className={aboutStyle.Header}>
                     <h3 className={aboutStyle.Subtitles}>
-                    Innovation
+                    Highest Quality Care
                     </h3>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -52,7 +41,7 @@ class AboutSection3 extends Component {
                 <Col className={aboutStyle.Nomobile}>
               <div className={aboutStyle.Header}>
                     
-                  <h3 className={aboutStyle.Subtitles}>    Commitment to Quality
+                  <h3 className={aboutStyle.Subtitles}> Patient Centered Treatment
                     </h3>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -63,7 +52,7 @@ class AboutSection3 extends Component {
                 <Col>
               <div className={aboutStyle.Box}>
               <div className={aboutStyle.BoxImg}>
-                    <img src="" alt="why choose" className="img-fluid" />
+                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>
@@ -84,7 +73,7 @@ class AboutSection3 extends Component {
               <Col>
               <div className={aboutStyle.Box}>
               <div className={aboutStyle.BoxImg}>
-                    <img src="" alt="why choose" className="img-fluid" />
+                    <img src={WomanOnTrack} alt="why choose" className="img-fluid" />
                   </div>
                   </div>
                   </Col>
