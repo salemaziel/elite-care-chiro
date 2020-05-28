@@ -180,8 +180,10 @@ class NavBar extends React.Component {
         </Nav.Link>
   </NavItem>*/}
                 <Button
+                  /*href="https://elite-care-chiropractic.appointlet.com/s/30-minute-appointment"*/
                   className={navStyles.NavBook}
-                  onClick={() => navigateTo("/schedule")}
+                  data-appointlet-organization="elite-care-chiropractic"
+                 /* onClick={() => navigateTo("/schedule")} */
                 >
                   Schedule
                 </Button>
@@ -245,7 +247,8 @@ class NavBar extends React.Component {
             </Link>,
             <Button
               className={navStyles.NavBook}
-              onClick={() => navigateTo("/schedule")}
+              data-appointlet-organization="elite-care-chiropractic"
+             /* onClick={() => navigateTo("/schedule")}*/
             >
               Schedule
             </Button>,

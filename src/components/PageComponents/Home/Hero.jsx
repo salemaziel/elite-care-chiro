@@ -23,11 +23,10 @@ const Hero = () => (
             <span>Elite Care Chiropractic</span>{" "}
           </h1>
           <p>
-            Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum
-            Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum Lorem Ipesum{" "}
+           {" "}
           </p>
-          <Button as={Link} to="/schedule" rel="preload" className="blue-btns">
-            Book Appointment
+          <Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
+            Schedule Appointment
           </Button>{" "}
         </div>
       </Row>

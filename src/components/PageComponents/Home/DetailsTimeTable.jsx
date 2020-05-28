@@ -37,27 +37,27 @@ const DetailsTimeTable = () => (
                       <tr>
                         <td>Monday</td>
                         <td>:</td>
-                        <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
+                        <td><div className={homeStyles.TableDetails}> 9:00AM - 5:00PM </div></td>
                       </tr>
                       <tr>
                         <td>Tuesday</td>
                         <td>:</td>
-                        <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
+                        <td><div className={homeStyles.TableDetails}> 9:00AM - 5:00PM </div></td>
                       </tr>
                       <tr>
                         <td>Wednesday</td>
                         <td>:</td>
-                        <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
+                        <td><div className={homeStyles.TableDetails}> 9:00AM - 5:00PM </div></td>
                       </tr>
                       <tr>
                         <td>Thursday</td>
                         <td>:</td>
-                        <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
+                        <td><div className={homeStyles.TableDetails}> 9:00AM - 5:00PM </div></td>
                       </tr>
                       <tr>
                         <td>Friday</td>
                         <td>:</td>
-                        <td><div className={homeStyles.TableDetails}> 8:30AM-12:00PM, 02:00PM-06:00PM </div></td>
+                        <td><div className={homeStyles.TableDetails}> 9:00AM - 5:00PM </div></td>
                       </tr>
                     </tbody>
                   </table>

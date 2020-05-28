@@ -38,11 +38,12 @@ const HeroMobileCTA = () => (
           </a>
         </Col>
         <Col>
-          <a href="#" className={heroStyles.CTALink}>
+          <a as={Button} className={heroStyles.CTALink}
+          data-appointlet-organization="elite-care-chiropractic">
             <FontAwesomeIcon
               icon={faCalendar}
               className={heroStyles.CTASchedule}
-            
+               
             />
             Schedule
           </a>

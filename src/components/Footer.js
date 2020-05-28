@@ -128,13 +128,13 @@ const Footer = () => (
                   </li>*/}
 
                     <li style={{ padding: "1rem" }}>
-                      <Link
+                      <a
                         rel="preload"
-                        to="/schedule"
                         style={{ color: "white" }}
+                        data-appointlet-organization="elite-care-chiropractic"
                       >
                         Schedule
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </Col>
