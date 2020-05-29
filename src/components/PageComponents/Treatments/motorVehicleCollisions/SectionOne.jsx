@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import { WomanOnTrack } from '../../../../images/index'
+import { WomanOnTrack, GreenShirtGuy } from '../../../../images/index'
 
 
 import treatmentStyles from '../treatment.module.css'
