@@ -1,11 +1,9 @@
-import { Link, navigateTo } from "gatsby";
+
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { Button, Navbar, Nav, NavItem, Container } from "react-bootstrap";
-import navStyles from "./nav.module.css";
 
-import { LogoLG } from "../images/index";
-import SideNav from "react-simple-sidenav";
+import { Helmet } from 'react-helmet'
+
 
 const Header = ({ siteTitle }) => (
       <>
@@ -89,6 +87,7 @@ const Header = ({ siteTitle }) => (
             </Container>
           </Navbar>
 </Container> */}
+
       </>
     );
 

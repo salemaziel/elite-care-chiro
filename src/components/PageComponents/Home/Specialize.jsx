@@ -14,21 +14,21 @@ const Specialize = () => (
     <Container>
       <Row>
         <div className="col-md-12">
-          <h2>At elite care Chiropractic</h2>
-          <h3>
-            We offer the highest quality treatment for:
-          </h3>
+          <h2>We Specialize in Treatment for:</h2>
+
         </div>
       </Row>
       <Row className={homeStyles.SpecializeTopMargin}>
        {/* <div className="col-md-3 col-sm-6"> */}
        <Col>
           <div className={homeStyles.SpecializeBox}>
+            <Link to="/treatments/sports-inuries">
             <img src={SportsInjury} className="img-fluid" />
             <h4>
               Sports <br />
               Injuries
             </h4>
+            </Link>
           </div>
           </Col>
         <Col>

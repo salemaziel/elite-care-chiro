@@ -52,10 +52,11 @@ const SectionOne = () => (
       <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
         <div className={serviceStyles.ServicesSingle}>
           <div className={serviceStyles.InnerBox}>
-          <h2>Therapy Details</h2>
+          <h2>Gait Evaluation:</h2>
             <div className={serviceStyles.InnerText}>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
+              <p>
+    Gait analysis is the study of locomotion, for our purposes in humans to measure the movement of the body in space (kinematics) and the forces involved in producing these movements (Kinetics). In the patients carrying injuries due to the involvement in running, walking, and occasionally cycling, a gait evaluation can help in finding how the injury happened and evaluating the plan of its treatment.</p><p>
+We provide extensive extremely comprehensive gait evaluations involving how a patient may stand, walk, and run or ride. Furthermore, the study of shoes is a big factor involved in our tests including the need for foot insoles to correct the biomechanics of a patient’s body. Particularly for cyclists, a custom insole has proved to be a valuable solution as it provides a greater contact surface for your foot with the pedal. </p>
               {/*Two Column*/}
             </div>
             <div className={serviceStyles.ServicesTopImage}>

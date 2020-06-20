@@ -158,7 +158,13 @@ form input[type="text"], form input[type="email"], form textarea, form select, f
     margin: 1em 0 1em;
     width: 100%;
 }
+form input[type="text"]:active, form input[type="email"]:active, form textarea:active, form select:active, form input[type="tel"]:active, form .file:active, form input[type="textarea"]:active {
+	border-color: #0397D7;
+}
 
+form input[type="text"]:focus, form input[type="email"]:focus, form textarea:focus, form select:focus, form input[type="tel"]:focus, form .file:focus, form input[type="textarea"]:focus {
+	border-color: #0397D7;
+}
 
 form textarea {
 	height: 10rem;

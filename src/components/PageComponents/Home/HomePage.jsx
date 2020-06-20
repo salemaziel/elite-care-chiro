@@ -1,9 +1,5 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
-import homeStyles from './home.module.css'
 import Hero from './Hero'
 import NewPatient from './NewPatient'
 import MeetDoctor from './MeetDoctor'

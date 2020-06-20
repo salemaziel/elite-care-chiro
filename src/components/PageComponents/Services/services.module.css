@@ -123,6 +123,16 @@
     margin-bottom: 18px;
 }
 
+.InnerText ul {
+    margin: auto;
+    padding: 2rem;
+}
+
+.InnerText ul li {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
 .ServicesTopImage img {
     position: relative;
     width: 100%;

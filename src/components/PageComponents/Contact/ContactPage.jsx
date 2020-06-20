@@ -1,17 +1,15 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
 
 import ContactForm from './contactform'
 
+import contactStyle from './contact.module.css'
 import Banner from '../../banner'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faFacebook,
-  faTwitter,
-  faLinkedin,
+
 } from "@fortawesome/free-brands-svg-icons"
 
 const ContactPage = () => (
@@ -109,7 +107,7 @@ const ContactPage = () => (
             </div>
             <div className="col-12 col-md-4 mb-5 mb-md-0 mt-5 mt-md-0">
               <aside className="pb-md-5">
-                <div className="contact_info">
+                <div className={contactStyle.ContactInfo}>
                   {/**<p className="mb-2">Phone</p>
                                                 <p className="mb-2"><a href="tel:#">760-555-5555</a></p>**/}
                   <h4 className="mb-2">Email</h4>
@@ -118,16 +116,23 @@ const ContactPage = () => (
                       info@elitecarechiropractic.com
                     </a>
                   </p>
+                  <h4 className="mb-2">Phone</h4>
+                  <p className="mb-2">
+                    <a href="tel:760 710-1901">
+                    760 710-1901
+                    </a>
+                  </p>
                 </div>
-                <h4 className="followus">Follow Us</h4>
-                <div className="followus">
-                  <a href="#">
+                <hr />
+                <h4 className={contactStyle.SocialLink}>Follow Us On Facebook!</h4>
+                <div className={contactStyle.SocialLink}>
+                  {/*<a href="#">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                   <a href="#">
                     <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                  <a href="#">
+                                              </a>*/}
+                  <a href="https://www.facebook.com/Elite-Care-Chiropractic-111683082181070">
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
                 </div>

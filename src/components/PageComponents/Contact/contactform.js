@@ -198,7 +198,7 @@ export default function ContactForm() {
               <button
                 type="submit"
                 value="Send Message"
-                className="special"
+                className="special blue-btns"
                 onChange={handleSubmit}
               >
                 Submit{" "}

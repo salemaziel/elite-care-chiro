@@ -1,7 +1,8 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+
+import Row from "react-bootstrap/Row"
 import Button from "react-bootstrap/Button"
 
 import HeroMobile from './HeroMobile'
@@ -12,7 +13,8 @@ import { Link } from 'gatsby'
 import heroStyles from "./home.module.css";
 
 const Hero = () => (
-  <section class={heroStyles.HeroSection}>
+  <>
+  <section className={heroStyles.HeroSection}>
     <Container className="NoMobile">
       <Row>
         <div className="col-lg-6 col-md-8">
@@ -33,6 +35,26 @@ const Hero = () => (
     </Container>
     <HeroMobile />
   </section>
+  {/*
+  <section className={heroStyles.BelowHero}>
+    <Container>
+      <Row>
+        <Col>
+        <h3>
+Because You Deserve The Best.</h3>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <p>
+        We provide comprehensive care and lasting treatment. We take pride in spending time with all our patients to develop individual total body support and maintenance programs. 
+        <br />
+        </p>
+        </Col>
+      </Row>
+    </Container>
+  </section>*/}
+  </>
 );
 
 export default Hero;

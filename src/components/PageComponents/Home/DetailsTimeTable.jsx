@@ -20,7 +20,7 @@ const DetailsTimeTable = () => (
       </Row>
     </Container>
   </section>
-  <section className={homeStyles.timetable}>
+  <section className={homeStyles.Table}>
     <Container>
       <Row>
         <div className="col-md-12">
@@ -30,7 +30,7 @@ const DetailsTimeTable = () => (
                 <div className={homeStyles.LeftDetails}>
                 <div className={homeStyles.AddressTitle}>
                     <h2 style={{textAlign: 'center', color: '#086788'}}>Suite 302</h2>
-                    <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024, USA</h3>
+                    <h3 style={{textAlign: 'center', color: '#0397d7'}}>317 N El Camino Real, Encinitas, CA 92024</h3>
                   </div>
                   <table>
                     <tbody>

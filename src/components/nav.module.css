@@ -14,7 +14,7 @@
 
 .NavBook {
     background: #0397d7;
-    color: white;
+    color: white!important;
     text-decoration: none;
     padding: 15px 10px;
     border-radius: 50px;
@@ -26,6 +26,7 @@
     max-width: 300px;
     border: 2px solid;
     padding: 1rem 3rem;
+    border-color: white;
 }
 
 .NavBook:hover {

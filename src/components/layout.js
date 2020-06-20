@@ -15,9 +15,9 @@ import NavBar from './NavBar'
 //import Container from 'react-bootstrap/Container'
 import "./layout.css";
 import '../css/main.css'
-import NavMobile from "./NavMobile";
+import CTA from './CTA'
 
-import Footer from './Footer'
+import Footer3 from './Footer3'
 
 const Layout = ({ children }) => {
 //  const data = useStaticQuery(graphql`
@@ -40,7 +40,8 @@ const Layout = ({ children }) => {
         {` `}
         <a href="https://salemaziel.com">Salem Aziel</a>
   </footer>*/}
-      <Footer />
+      <CTA />
+      <Footer3 />
     </>
   );
 };

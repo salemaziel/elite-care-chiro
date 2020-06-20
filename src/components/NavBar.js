@@ -86,14 +86,14 @@ class NavBar extends React.Component {
                   title="Treatments"
                   id="nav-dropdown-treatments"
                 >
-                  <NavDropdown.Item eventKey="treatments/motor-vehicle-collisions">
+                  <NavDropdown.Item eventKey="/treatments/motor-vehicle-collisions">
                     {" "}
                     Motor Vehicle Collision{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/neck-and-back-pain">
+                  <NavDropdown.Item eventKey="/treatments/neck-and-back-pain">
                     Neck and Back Pain
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/sports-injuries">
+                  <NavDropdown.Item eventKey="/treatments/sports-injuries">
                     Sports Injuries
                   </NavDropdown.Item>
                   {/*   <NavDropdown.Item eventKey="treatments/#">
@@ -121,20 +121,20 @@ class NavBar extends React.Component {
                   title="Services"
                   id="nav-dropdown-services"
                 >
-                  <NavDropdown.Item eventKey="services/gait-evaluation">
+                  <NavDropdown.Item eventKey="/services/gait-evaluation">
                     Gait Evaluation
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/orthotics">
+                  <NavDropdown.Item eventKey="/services/orthotics">
                     Orthotics
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/myofascial-release">
+                  <NavDropdown.Item eventKey="/services/myofascial-release">
                     {" "}
                     Myofascial Release{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/physiotherapy-protocols">
+                  <NavDropdown.Item eventKey="/services/physiotherapy-protocols">
                     Physiotherapy Protocols{" "}
                   </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/adjustive-technique">
+                  <NavDropdown.Item eventKey="/services/adjustive-technique">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
                   {/* <NavDropdown.Item eventKey="services/#">
@@ -155,6 +155,11 @@ class NavBar extends React.Component {
                     to="/newpatients"
                   >
                     New Patients
+                  </Nav.Link>
+                </NavItem>
+                <NavItem >
+                  <Nav.Link as={Link} activeClassName="active" to="/contact">
+                    Contact
                   </Nav.Link>
                 </NavItem>
               </Nav>
@@ -180,10 +185,11 @@ class NavBar extends React.Component {
         </Nav.Link>
   </NavItem>*/}
                 <Button
+                as={Link}
                   /*href="https://elite-care-chiropractic.appointlet.com/s/30-minute-appointment"*/
                   className={navStyles.NavBook}
                   data-appointlet-organization="elite-care-chiropractic"
-                  /* onClick={() => navigateTo("/schedule")} */
+                /*  onClick={() => navigateTo("/schedule")}*/
                 >
                   Book Online
                 </Button>
@@ -244,7 +250,7 @@ class NavBar extends React.Component {
               data-appointlet-organization="elite-care-chiropractic"
               /* onClick={() => navigateTo("/schedule")}*/
             >
-             Book Online
+              Book Online
             </Button>,
           ]}
           itemStyle={{

@@ -1,5 +1,6 @@
 .SectionFooter {
     background-color: #0397d7;
+    padding: 2rem 0;
 
 }
 
@@ -9,10 +10,10 @@
 }
 
 
-.LogoBlock {
-    display: block;
-    margin: 5rem auto 2rem;
-    width: 50%;
+.Box {
+    display: flex;
+    margin: 2rem auto 2rem;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.9);
@@ -38,7 +39,7 @@
 .Logo {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 200px;
     padding: 1rem 2rem;
   }
   
@@ -59,23 +60,40 @@
     align-content: center;
     text-align: center;
     font-size: 3rem;
-    margin: auto;
+    margin: 1rem auto auto;
     display: flex;
   }
   
   .Icon {
     margin: 1rem;
     font-size: 2rem;
+    color: #0397D7;
+    fill: #0397D7;
+  }
+
+  .Icon:hover {
     color: white;
   }
   
   .QuickLinks {
     margin: auto;
-    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .QuickLinks h2 {
+    color: white;
+    text-shadow: 2px 2px 3px rgb(163, 158, 158);
     font-size: 2rem;
     font-weight: bold;
   }
-  
+
+  .QuickLinks a {
+    color: #0397D7;
+  }
+
+
   .LinkBox {
     display: flex;
     flex-direction: column;
@@ -143,6 +161,10 @@
     .ColNoMobile {
       display: block;
     }
+
+    .Box {
+      width: 90%;
+    }
   }
   
   @media screen and (max-width: 980px) {
@@ -170,7 +192,7 @@
       text-align: center;
       font-size: 3rem;
       margin: auto;
-      padding: 2rem 0 0 0;
+      padding: 0 0 0 0;
     }
   
     .CenterFooter {
@@ -202,23 +224,31 @@
     .ColNoMobile {
       display: none;
     }
-    .LogoBlock {
-        display: block;
+    .Box {
+        display: flex;
         margin: 0 auto 0 auto;
-        width: 80%;
+        width: 90%;
         background-color: rgba(255, 255, 255, 0.7);
         border: 1px solid;
         border-color: rgba(255, 255, 255, 0.9);
         border-radius: 10px;
       }
     
+      .QuickLinks {
+        padding: 1rem 0;
+        text-align: left;
+      }
+
+      .QuickLinks h2 {
+        font-size: 1.5rem;
+      }
     
     
     .Logo {
         display: block;
         margin: auto;
-        width: 50%;
         padding: 1rem;
+        width: 150px;
       }
 
 
@@ -233,6 +263,11 @@
   
     .ColNoMobile {
       display: none;
+    }
+
+    .Box {
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
   
@@ -254,9 +289,36 @@
     .CenterFooter {
       margin: 10% auto;
     }
-  
+    .SocialIcon {
+      display: inline-flex;
+      width: 100%;
+      min-height: 50px;
+          -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+          -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+          -moz-align-content: center;
+    -webkit-align-content: center;
+    -ms-align-content: center;
+    align-content: center;
+      text-align: center;
+      font-size: 3rem;
+      margin: auto;
+      padding: 2rem 0 0 0;
+    }
     .Icon {
   
+    }
+
+    .Box {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: auto;
+      width: 90%;
     }
   
   }
@@ -264,6 +326,14 @@
   @media screen and (max-width: 360px) {
     .ColNoMobile {
       display: none;
+    }
+
+    .QuickLinks {
+      text-align: center;
+    }
+
+    .Logo {
+      width: 125px;
     }
   }
   

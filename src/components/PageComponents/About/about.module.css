@@ -143,6 +143,14 @@
   color: #0397d7;
 }
 
+.WhatisArticle {
+  margin: auto;
+}
+
+.WhatisArticle article {
+  padding: 2rem;
+  margin: auto;
+}
 
 
 @media screen and (min-width: 2400px) {
@@ -220,6 +228,10 @@
     background-color: transparent;
   }
 
+  .Titlerow {
+    padding: 0;
+  }
+
   .Box {
     height: 100%;
     margin: auto;
@@ -271,6 +283,7 @@
   .Nomobile {
     display: block;
   }
+
 
   .Nodesktop {
     display: none;

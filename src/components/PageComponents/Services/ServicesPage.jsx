@@ -3,6 +3,7 @@ import Banner from '../../banner'
 import AllServices from './allServices'
 import AllTreatments from '../Treatments/allTreatments'
 
+
 const ServicesPage = () => (
     <>
     <Banner />

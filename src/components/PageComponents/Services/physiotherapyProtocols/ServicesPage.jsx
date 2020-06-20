@@ -10,6 +10,7 @@ const ServicesPage = () => (
     <Banner />
     <SectionOne />
     </>
+
 )
 
 export default ServicesPage
