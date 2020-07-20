@@ -6,11 +6,15 @@ import ContactForm from './contactform'
 import contactStyle from './contact.module.css'
 import Banner from '../../banner'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+/*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faFacebook,
 
 } from "@fortawesome/free-brands-svg-icons"
+*/
+import {
+  FaFacebook
+} from 'react-icons/fa'
 
 const ContactPage = () => (
     <>
@@ -133,7 +137,8 @@ const ContactPage = () => (
                     <FontAwesomeIcon icon={faLinkedin} />
                                               </a>*/}
                   <a href="https://www.facebook.com/Elite-Care-Chiropractic-111683082181070">
-                    <FontAwesomeIcon icon={faFacebook} />
+                    {/*<FontAwesomeIcon icon={faFacebook} />*/}
+                    <FaFacebook />
                   </a>
                 </div>
               </aside>

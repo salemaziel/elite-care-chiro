@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { NeckPain, MotorVehicle, SportsInjury } from '../../../images/index'
 
+import alltreatmentStyles from './treatment.module.css'
+
 const AllTreatments = () => (
-<section className="services-page-section">
+<section className={alltreatmentStyles.TreatmentSection}>
 <div style={{
     textAlign: 'center',
     margin: 'auto',

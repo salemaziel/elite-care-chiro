@@ -17,7 +17,7 @@ import "./layout.css";
 import '../css/main.css'
 import CTA from './CTA'
 
-import Footer3 from './Footer3'
+import Footer2 from './Footer2'
 
 const Layout = ({ children }) => {
 //  const data = useStaticQuery(graphql`
@@ -35,13 +35,8 @@ const Layout = ({ children }) => {
       <Header /*siteTitle={data.site.siteMetadata.title}*/ />
       <NavBar />
         {children}
-      {/*<footer className="footer mt-auto py-3 bg-dark text-white text-center">
-        © {new Date().getFullYear()}, Built by
-        {` `}
-        <a href="https://salemaziel.com">Salem Aziel</a>
-  </footer>*/}
       <CTA />
-      <Footer3 />
+      <Footer2 />
     </>
   );
 };

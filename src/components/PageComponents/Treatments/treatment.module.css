@@ -158,6 +158,12 @@
 	font-family: "Flaticon";
 }
 
+.TreatmentSection {
+    margin: 5% auto;
+}
+
+
+
 @media screen and (max-width: 980px) {
     .AsideCategories {
         display: block;

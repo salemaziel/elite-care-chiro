@@ -5,18 +5,18 @@ import Col from "react-bootstrap/Col";
 
 import { WomanOnTrack, GreenShirtGuy } from "../../../../images/index";
 
-import serviceStyles from "../services.module.css";
+import myofascialStyles from "../services.module.css";
 
 const SectionOne = () => (
-  <div className={serviceStyles.sidebarPageContainer}>
-    <div className={serviceStyles.autoContainer}>
+  <div className={myofascialStyles.sidebarPageContainer}>
+    <div className={myofascialStyles.autoContainer}>
       <Row>
         {/*Sidebar Side*/}
         <div className="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
-          <aside className={serviceStyles.AsideCategories}>
+          <aside className={myofascialStyles.AsideCategories}>
             {/*Blog Category Widget*/}
-            <div className={serviceStyles.sidebarWidget}>
-              <ul className={serviceStyles.Categories}>
+            <div className={myofascialStyles.sidebarWidget}>
+              <ul className={myofascialStyles.Categories}>
                 <li>
                   <Link to="/services/adjustive-technique">
                     Adjustive Technique
@@ -25,7 +25,7 @@ const SectionOne = () => (
                 <li>
                   <Link to="/services/gait-evaluation">Gait Evaluation</Link>
                 </li>
-                <li className={serviceStyles.active}>
+                <li className={myofascialStyles.active}>
                   <Link to="/services/myofascial-release">
                     Myofascial Release
                   </Link>
@@ -64,7 +64,7 @@ const SectionOne = () => (
             </div>
             </div> */}
             {/*Info Widget*/}
-            <div className={serviceStyles.ListWidget}>
+            <div className={myofascialStyles.ListWidget}>
               <ul>
                 <li>
                   <span
@@ -86,10 +86,10 @@ const SectionOne = () => (
         </div>
         {/*Content Side*/}
         <div className="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-          <div className={serviceStyles.ServicesSingle}>
-            <div className={serviceStyles.InnerBox}>
+          <div className={myofascialStyles.ServicesSingle}>
+            <div className={myofascialStyles.InnerBox}>
               <h2>Myofascial Release:</h2>
-              <div className={serviceStyles.InnerText}>
+              <div className={myofascialStyles.InnerText}>
                 <p>
                   Myofascial release is a manipulative treatment that attempts
                   to release tension in the fascia due to trauma, posture, or
@@ -123,15 +123,15 @@ const SectionOne = () => (
                 </p>
                 {/*Two Column*/}
               </div>
-              <div className={serviceStyles.ServicesTopImage}>
+              <div className={myofascialStyles.ServicesTopImage}>
                 <img src={GreenShirtGuy} alt="" className="img-fluid" />
               </div>
               {/*   <h2>Therapy Details</h2> */}
-              <div className={serviceStyles.InnerText}>
+              <div className={myofascialStyles.InnerText}>
                 {/*  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
               <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
               {/*Two Column* /} */}
-                <div className={serviceStyles.ColumnTwo}>
+                <div className={myofascialStyles.ColumnTwo}>
                   <Col>
                     <h2>Benefit of Therapy</h2>
                     <p>
@@ -139,7 +139,7 @@ const SectionOne = () => (
                       proactive domination. At the end of the day, going
                       forward, a new normal that has evolved.
                     </p>
-                    <ul className={serviceStyles.ServicesTherapyList}>
+                    <ul className={myofascialStyles.ServicesTherapyList}>
                       <li>Those who do not know how to pursue</li>
                       <li>Pleasure rationally encounter</li>
                       <li>Consequences that are extremely painful.</li>
@@ -203,9 +203,9 @@ const SectionOne = () => (
          </div> */}
               <div className="column col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div className="visit-box">
-                  <div className={serviceStyles.InnerBox}>
+                  <div className={myofascialStyles.InnerBox}>
                     <h2>Visit Today</h2>
-                    <div className={serviceStyles.InnerText}>
+                    <div className={myofascialStyles.InnerText}>
                       You'll know the minute you arrive this is the place. We
                       are here to surpass your desires.
                     </div>

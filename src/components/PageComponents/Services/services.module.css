@@ -169,6 +169,10 @@
 	font-family: "Flaticon";
 }
 
+.ServiceSection {
+    margin: 5% auto;
+}
+
 
 @media screen and (max-width: 980px) {
     .AsideCategories {

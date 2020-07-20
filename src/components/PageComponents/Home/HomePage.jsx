@@ -17,11 +17,13 @@ const HomePage = () => (
 <HeroMobileCTA />
 <DetailsTimeTableMobile />
 <NewPatient />
+<div id="background">
 <MeetDoctor />
 <Specialize />
 <Testimonial />
 <Affiliates />
 <DetailsTimeTable />
+</div>
 </>
 )
 

@@ -6,12 +6,12 @@ import Col from "react-bootstrap/Col";
 
 import MiniBanner from "./MiniBanner";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+/*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import treatmentStyles from "./treatment.module.css";
 import Button from "react-bootstrap/Button";
-
+*/
 import { WomanOnTrack } from "../../../images/index";
 
 const MainSection = () => (

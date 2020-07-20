@@ -1,3 +1,4 @@
+
 .HeroSection {
   position: relative; 
   background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 33%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, .9) 100%), url("../../../images/elite-care-chiro-hero-bg-young-woman.jpeg");
@@ -640,6 +641,13 @@ background-image: linear-gradient(to bottom, rgba(0, 132, 196, 0.55) 33%, rgba(0
 }
 
 
+@media screen and (min-width: 2400px) {
+  .HeroSection {
+    background-position: initial;
+    height: 60vh;
+  }
+}
+
 
 @media screen and (max-width:1680px) {
 
@@ -981,6 +989,8 @@ h1 .HeroTitle {
   margin: auto;
 }
 
+
+
 }
 
 
@@ -1049,6 +1059,13 @@ h1 .HeroTitle {
 
     .CenterDetailsMobile {
       min-height: 5rem;
+    }
+
+    .SpecializeTopMargin {
+      margin-top: 25px;
+      display: block;
+      margin: 25px auto;
+      padding: 0px;
     }
 
 }

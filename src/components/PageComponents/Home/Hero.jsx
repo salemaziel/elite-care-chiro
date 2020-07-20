@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button"
 
 import HeroMobile from './HeroMobile'
 
+import ScheduleModal from '../../ScheduleModal'
+
 
 import { Link } from 'gatsby'
 
@@ -27,9 +29,10 @@ const Hero = () => (
           <p>
            {" "}
           </p>
-          <Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
+          {/*<Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
             Book Online
-          </Button>{" "}
+          </Button>{" "}*/}
+          <ScheduleModal />
         </div>
       </Row>
     </Container>

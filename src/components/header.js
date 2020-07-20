@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import { Helmet } from 'react-helmet'
 
 
+
 const Header = ({ siteTitle }) => (
       <>
        {/* <Container className={navStyles.daNav} position="fixed">
@@ -87,7 +88,6 @@ const Header = ({ siteTitle }) => (
             </Container>
           </Navbar>
 </Container> */}
-
       </>
     );
 

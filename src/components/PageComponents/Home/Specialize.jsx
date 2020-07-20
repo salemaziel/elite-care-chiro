@@ -22,7 +22,7 @@ const Specialize = () => (
        {/* <div className="col-md-3 col-sm-6"> */}
        <Col>
           <div className={homeStyles.SpecializeBox}>
-            <Link to="/treatments/sports-inuries">
+            <Link to="/treatments/sports-injuries">
             <img src={SportsInjury} className="img-fluid" />
             <h4>
               Sports <br />
@@ -33,21 +33,28 @@ const Specialize = () => (
           </Col>
         <Col>
           <div className={homeStyles.SpecializeBox}>
+          <Link to="/treatments/neck-and-back-pain">
+
             <img src={NeckPain} className="img-fluid" />
             <h4>
               Neck and <br />
               Back Pain
               
             </h4>
+            </Link>
           </div>
         </Col>
         <Col>
           <div className={homeStyles.SpecializeBox}>
+          <Link to="/treatments/motor-vehicle-collisons">
+
             <img src={MotorVehicle} className="img-fluid" />
             <h4>
               Motor Vehicle <br />
               Collisions
             </h4>
+            </Link>
+
           </div>
         </Col>
       </Row>

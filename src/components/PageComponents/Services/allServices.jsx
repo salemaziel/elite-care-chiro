@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import allserviceStyles from './services.module.css'
+
 const AllServices = () => (
-<section className="services-page-section">
+<section className={allserviceStyles.ServiceSection}>
   <div style={{
     textAlign: 'center',
     margin: 'auto',

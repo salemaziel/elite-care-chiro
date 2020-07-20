@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button"
 
-import { OldCouple } from "../../../images/index";
+import { OldCouple, PaulaNewbyFrasier } from "../../../images/index";
 
 import { Link } from "gatsby";
 
@@ -26,7 +26,7 @@ const Testimonial = () => (
             <div className="row d-flex flex-row">
               <div className="col-md-5">
                 <div className={homeStyles.LeftImage}>
-                  <img src={OldCouple} className="img-fluid" />
+                  <img src={PaulaNewbyFrasier} className="img-fluid" />
                 </div>
               </div>
               <div className="col-md-7 my-auto">
@@ -39,7 +39,7 @@ const Testimonial = () => (
                     </strong>{" "}
                   </p>
                   <h4>
-                    Paula Newby-Fraser <span>8X Ironman Work Champion</span>
+                    <a href="https://u.ironman.com/expert/paula-newby-fraser">Paula Newby-Fraser <span>8X Ironman Work Champion</span> </a>
                   </h4>
                   <div className="cx_star">
                     {" "}
@@ -49,7 +49,7 @@ const Testimonial = () => (
                     <span className="fa fa-star" />{" "}
                     <span className="fa fa-star" />{" "}
                   </div>
-                  <Button as={Link} to="/services" rel="preload" className="blue-btns">
+                  <Button as={Link} to="/testimonials" rel="preload" className="blue-btns">
                     More Stories
                   </Button>{" "}
                 </div>

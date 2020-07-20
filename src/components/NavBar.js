@@ -14,6 +14,8 @@ import NavItem from "react-bootstrap/NavItem";
 
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import ScheduleModal from "./ScheduleModal";
+
 //const NavBar = () => (
 class NavBar extends React.Component {
   constructor() {
@@ -56,7 +58,6 @@ class NavBar extends React.Component {
               aria-controls="basic-navbar-nav"
               onClick={() => this.setState({ showNav: true })}
             />
-            {/*<Navbar.Collapse id="basic-navbar-nav">*/}
             <div className={navStyles.NavBar}>
               <Nav
                 className="mr-auto"
@@ -68,16 +69,7 @@ class NavBar extends React.Component {
                     About
                   </Nav.Link>
                 </NavItem>
-                {/*  <NavItem href="/treatments">
-                  <Nav.Link as={Link} activeClassName="active" to="/treatments">
-                    Treatments
-                  </Nav.Link>
-        </NavItem> */}
-                {/* <NavItem href="/services">
-                  <Nav.Link as={Link} activeClassName="active" to="/services">
-                    Services
-                  </Nav.Link>
-      </NavItem> */}
+
                 <NavDropdown
                   as={Link}
                   href="/treatments"
@@ -96,21 +88,6 @@ class NavBar extends React.Component {
                   <NavDropdown.Item eventKey="/treatments/sports-injuries">
                     Sports Injuries
                   </NavDropdown.Item>
-                  {/*   <NavDropdown.Item eventKey="treatments/#">
-                    Physiotherapy Protocols{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="treatments/#">
-                    Adjustive Technique{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
-                    Shingle{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
-                    Built-up Roofing BUR{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services">
-                    All Services
-                  </NavDropdown.Item>*/}
                 </NavDropdown>
 
                 <NavDropdown
@@ -137,15 +114,6 @@ class NavBar extends React.Component {
                   <NavDropdown.Item eventKey="/services/adjustive-technique">
                     Adjustive Technique{" "}
                   </NavDropdown.Item>
-                  {/* <NavDropdown.Item eventKey="services/#">
-                    Shingle{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services/#">
-                    Built-up Roofing BUR{" "}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item eventKey="services">
-                    All Services
-                  </NavDropdown.Item>*/}
                 </NavDropdown>
 
                 <NavItem href="/newpatients">
@@ -157,46 +125,21 @@ class NavBar extends React.Component {
                     New Patients
                   </Nav.Link>
                 </NavItem>
-                <NavItem >
+                <NavItem>
                   <Nav.Link as={Link} activeClassName="active" to="/contact">
                     Contact
                   </Nav.Link>
                 </NavItem>
               </Nav>
               <Nav className="ml-auto">
-                {/*<NavItem href="/about">
-        <Nav.Link as={Link} activeClassName="active" to="/about">
-          About
-        </Nav.Link>
-      </NavItem>
-      <NavItem href="/treatments">
-        <Nav.Link as={Link} activeClassName="active" to="/treatments">
-          Treatments
-        </Nav.Link>
-      </NavItem>
-      <NavItem href="/services">
-        <Nav.Link as={Link} activeClassName="active" to="/services">
-          Services
-        </Nav.Link>
-      </NavItem>
-      <NavItem href="/newpatients">
-        <Nav.Link as={Link} activeClassName="active" to="/newpatients">
-          New Patients
-        </Nav.Link>
-  </NavItem>*/}
-                <Button
-                as={Link}
-                  /*href="https://elite-care-chiropractic.appointlet.com/s/30-minute-appointment"*/
-                  className={navStyles.NavBook}
-                  data-appointlet-organization="elite-care-chiropractic"
-                /*  onClick={() => navigateTo("/schedule")}*/
+                {/*<Button className={navStyles.NavBook} data-appointlet-organization="elite-care-chiropractic"
+                /*  onClick={() => navigateTo("/schedule")}* /
                 >
                   Book Online
-                </Button>
+        </Button>*/}
+                <ScheduleModal />
               </Nav>
             </div>
-
-            {/*</Navbar.Collapse>*/}
           </Container>
         </Navbar>
         <SideNav
@@ -208,11 +151,7 @@ class NavBar extends React.Component {
                 alignContent: "center",
                 alignItems: "center",
               }}
-            >
-              {/* <Link>
-                <img src={LogoLG} width="100%" alt='' />
-             </Link>*/}
-            </div>
+            ></div>
           }
           titleStyle={{
             background: "inherit",
@@ -243,7 +182,7 @@ class NavBar extends React.Component {
               className={navStyles.SideNavLink}
               to="/services"
             >
-              Services & Treatments
+              Services &#38; Treatments
             </Link>,
             <Button
               className={navStyles.NavBook}
@@ -254,8 +193,8 @@ class NavBar extends React.Component {
             </Button>,
           ]}
           itemStyle={{
-            background: "inherit",
-            backgroundColor: "inherit",
+            background: "transparent!important",
+            backgroundColor: "transparent!important",
             color: "#fff",
             fontSize: "2rem",
             padding: "10px 0",

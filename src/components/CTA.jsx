@@ -1,19 +1,20 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import ctaStyles from './cta.module.css'
+import React from "react";
+import { Link } from "gatsby";
+import ctaStyles from "./cta.module.css";
+
+import ScheduleModal from "./ScheduleModal";
 
 const CTA = () => (
-    <section id="two" className={ctaStyles.cta}>
+  <section id="two" className={ctaStyles.cta}>
     <div className={ctaStyles.inner}>
       <header>
         <h2>Schedule Your Appointment Today</h2>
-
       </header>
-      <ul className={ctaStyles.actions}>
-          <li><Link to="#" data-appointlet-organization="elite-care-chiropractic" className="btn blue-btns">Book Online</Link></li>
-</ul>
+      <div style={{marginLeft: '10%'}}>
+      <ScheduleModal />
+      </div>
     </div>
   </section>
-)
+);
 
-export default CTA
+export default CTA;

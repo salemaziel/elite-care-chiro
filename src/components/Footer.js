@@ -7,13 +7,19 @@ import footerStyle from './footer.module.css'
 
 import { LogoLG } from '../images/index'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+/*import {
   faFacebook,
   faTwitter,
   faLinkedin,
-} from "@fortawesome/free-brands-svg-icons"
+} from "@fortawesome/free-brands-svg-icons"*/
 import { Link } from "gatsby"
+
+import { 
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin
+   } from 'react-icons/fa'
 
 const Footer = () => (
     <section className={footerStyle.SectionFooter}>
@@ -28,22 +34,25 @@ const Footer = () => (
             <div className={footerStyle.SocialIcon}>
               {" "}
               <a href="#">
-                <FontAwesomeIcon
+                {/*<FontAwesomeIcon
                   icon={faFacebook}
                   className={footerStyle.Icon}
-                />
+                />*/}
+                <FaFacebook className={footerStyle.Icon} />
               </a>{" "}
               <a href="#">
-                <FontAwesomeIcon
+                {/*<FontAwesomeIcon
                   icon={faTwitter}
                   className={footerStyle.Icon}
-                />
+                />*/}
+                <FaTwitter className={footerStyle.Icon} />
               </a>{" "}
               <a href="#">
-                <FontAwesomeIcon
+                {/*<FontAwesomeIcon
                   icon={faLinkedin}
                   className={footerStyle.Icon}
-                />
+                />*/}
+                <FaLinkedin className={footerStyle.Icon} />
               </a>{" "}
               {/*} <a href="#">
                   <FontAwesomeIcon icon={faEnvelope} className={footerStyle.Icon} />

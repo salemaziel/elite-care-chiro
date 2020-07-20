@@ -4,8 +4,11 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+/*
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+*/
+import { FaArrowRight } from 'react-icons/fa'
 
 import treatmentStyles from './treatment.module.css'
 import Button from 'react-bootstrap/Button'
@@ -19,21 +22,24 @@ const SideColumn = () => (
             <div>
             <Button className={treatmentStyles.TreatmentBlocks} active={true} >
                 Sports Injuries
-                <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>
+                {/*<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>*/}
+                <FaArrowRight style={{marginLeft: 'auto'}}/>
             </Button>
             </div>
 
             <div>
             <Button className={treatmentStyles.TreatmentBlocks}>
                 Neck and Back Pain
-                <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>
+                {/*<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>*/}
+                <FaArrowRight style={{marginLeft: 'auto'}}/>
             </Button>
             </div>
 
             <div>
             <Button className={treatmentStyles.TreatmentBlocks}>
                 Motor Vehicle Collisions
-                <FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>
+                {/*<FontAwesomeIcon icon={faArrowRight} style={{marginLeft: 'auto'}}/>*/}
+                <FaArrowRight style={{marginLeft: 'auto'}}/>
             </Button>
             </div>
 

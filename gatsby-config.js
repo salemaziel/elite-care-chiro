@@ -6,15 +6,19 @@ module.exports = {
   },
 
   plugins: [
-//    {
-//      resolve: "gatsby-plugin-tinacms",
-//      options: {
-//        plugins: ["gatsby-tinacms-git", "gatsby-tinacms-remark", "gatsby-tinacms-json",],
-//        sidebar: {
-//          hidden: process.env.NODE_ENV === "production",
-//          position: "displace"
-//        },
-//      },
+ //   {
+ //     resolve: "gatsby-plugin-tinacms",
+ //     options: {
+ //       plugins: [
+ //             "gatsby-tinacms-git", 
+ //             "gatsby-tinacms-remark", 
+ //             "gatsby-tinacms-json",
+ //           ],
+ //       sidebar: {
+ //         hidden: process.env.NODE_ENV === "production",
+ //         position: "displace"
+ //       },
+ //     },
 //    },
     {
       resolve: `gatsby-source-filesystem`,
@@ -71,14 +75,21 @@ module.exports = {
         start_url: `/`,
         background_color: `#0397D7`,
         theme_color: `#0397D7`,
-        display: `standalone`,
+        display: `minimal-ui`,
         icon: `src/images/logo-810x600.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://elitecare.salemaziel.design',
+        sitemap: 'https://elitecare.salemaziel.design/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-     `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
   ],
 };
