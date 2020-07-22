@@ -30,7 +30,7 @@ const Hero = () => (
           </Fade>
           <p>
            {" "}
-           Serving 
+           
           </p>
           {/*<Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
             Book Online
