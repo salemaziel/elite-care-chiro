@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button"
 import HeroMobile from './HeroMobile'
 
 import ScheduleModal from '../../ScheduleModal'
-
+import Fade from 'react-reveal/Fade'
 
 import { Link } from 'gatsby'
 
@@ -20,14 +20,17 @@ const Hero = () => (
     <Container className="NoMobile">
       <Row>
         <div className="col-lg-6 col-md-8">
+          <Fade left cascade big>
           <h1>
             {" "}
             Welcome to
             <br />
             <span>Elite Care Chiropractic</span>{" "}
           </h1>
+          </Fade>
           <p>
            {" "}
+           Serving 
           </p>
           {/*<Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
             Book Online

@@ -9,9 +9,12 @@ import { Link } from 'gatsby'
 import '../../../images/index'
 import homeStyles from "./home.module.css";
 
+import Fade from 'react-reveal/Fade'
+
 const MeetDoctor = () => (
 <section className={homeStyles.MeetDoctorSection}>
   <Container>
+    <Fade left>
     <div className="row d-flex flex-row">
       <div className="col-md-5 my-auto text-center">
         <div className={homeStyles.DoctorImage}> 
@@ -27,6 +30,8 @@ const MeetDoctor = () => (
             <Button as={Link} to="/about#janelli" rel="preload" className="blue-btns">About Dr. Janelli</Button> </div>
       </div>
     </div>
+    </Fade>
+    <Fade right>
     <div className="row d-flex flex-row flex-row-reverse">
       <div className="col-md-5 my-auto text-center">
         <div className={homeStyles.DoctorImage}> 
@@ -42,6 +47,7 @@ const MeetDoctor = () => (
             <Button as={Link} to="/about#rich" rel="preload" className="blue-btns">About Dr. Rich</Button> </div>
       </div>
     </div>
+    </Fade>
   </Container>
 </section>
 );

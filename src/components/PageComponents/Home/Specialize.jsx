@@ -7,10 +7,12 @@ import Button from "react-bootstrap/Button"
 import { MotorVehicle, SportsInjury, NeckPain } from "../../../images/index";
 import { Link } from "gatsby";
 
+import Fade from 'react-reveal/Fade'
 import homeStyles from "./home.module.css";
 
 const Specialize = () => (
   <section className={homeStyles.SpecializeSection}>
+    <Fade bottom>
     <Container>
       <Row>
         <div className="col-md-12">
@@ -67,6 +69,7 @@ const Specialize = () => (
         </div>
       </Row>
     </Container>
+    </Fade>
   </section>
 );
 
