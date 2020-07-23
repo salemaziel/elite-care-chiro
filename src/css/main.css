@@ -208,6 +208,13 @@ header {
 	display: none;
 }
 
+nav ul li:hover,
+nav ul li:focus,
+nav ul li:focus-within {
+	background-color: transparent!important;
+	background: transparent!important;
+}
+
 
 
 @media only screen and (max-width: 980px) {

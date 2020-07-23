@@ -14,6 +14,8 @@ import NavItem from "react-bootstrap/NavItem";
 
 import NavDropdown from "react-bootstrap/NavDropdown";
 
+import { Helmet } from 'react-helmet'
+
 import ScheduleModal from "./ScheduleModal";
 
 //const NavBar = () => (
@@ -31,6 +33,9 @@ class NavBar extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+  <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
+  </Helmet>
         <Navbar
           bg="white"
           variant="light"
@@ -132,12 +137,15 @@ class NavBar extends React.Component {
                 </NavItem>
               </Nav>
               <Nav className="ml-auto">
-                {/*<Button className={navStyles.NavBook} data-appointlet-organization="elite-care-chiropractic"
-                /*  onClick={() => navigateTo("/schedule")}* /
+                <Button
+                  className={navStyles.NavBook}
+                  data-appointlet-organization="elite-care-chiropractic"
+                  /*  onClick={() => navigateTo("/schedule")}*/
                 >
                   Book Online
-        </Button>*/}
-                <ScheduleModal />
+                </Button>
+                
+                {/*<ScheduleModal />*/}
               </Nav>
             </div>
           </Container>
@@ -184,10 +192,9 @@ class NavBar extends React.Component {
             >
               Services &#38; Treatments
             </Link>,
-            <Button
+            <Button as={Link} data-appointlet-organization="elite-care-chiropractic" 
               className={navStyles.NavBook}
-              data-appointlet-organization="elite-care-chiropractic"
-              /* onClick={() => navigateTo("/schedule")}*/
+              type="button"
             >
               Book Online
             </Button>,

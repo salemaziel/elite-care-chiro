@@ -27,15 +27,18 @@ const Hero = () => (
             <br />
             <span>Elite Care Chiropractic</span>{" "}
           </h1>
+          <hr />
           </Fade>
+          <Fade left>
           <p>
            {" "}
-           
+           Providing Encinitas with the highest quality in Chiropractic care for <strong>over 15 years. </strong>
           </p>
+          </Fade>
           {/*<Button data-appointlet-organization="elite-care-chiropractic" as={Link} rel="preload" className="blue-btns">
             Book Online
           </Button>{" "}*/}
-          <ScheduleModal />
+          {/*<ScheduleModal />*/}
         </div>
       </Row>
     </Container>

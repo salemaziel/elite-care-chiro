@@ -4,6 +4,7 @@ import ContactPage from '../components/PageComponents/Contact/ContactPage'
 import SEO from "../components/seo";
 
 
+
 const Contact = () => (
     <Layout>
             <SEO title="Contact" />

@@ -20,7 +20,7 @@ const DetailsTimeTableMobile = () => (
       </Row>
     </Container>
   </section>
-  <section className={homeStyles.timetable}>
+  <section className={homeStyles.TimeTable}>
     <Container>
       <Row>
         <div className="col-md-12">

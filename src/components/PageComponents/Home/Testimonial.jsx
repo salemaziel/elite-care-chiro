@@ -9,6 +9,8 @@ import { Link } from "gatsby";
 
 import homeStyles from "./home.module.css";
 
+import { FaRegStar } from 'react-icons/fa'
+
 const Testimonial = () => (
   <section className={homeStyles.SucessSection}>
     <Container>
@@ -41,13 +43,13 @@ const Testimonial = () => (
                   <h4>
                     <a href="https://u.ironman.com/expert/paula-newby-fraser">Paula Newby-Fraser <span>8X Ironman Work Champion</span> </a>
                   </h4>
-                  <div className="cx_star">
+                  <div className={homeStyles.stars}>
                     {" "}
-                    <span className="fa fa-star" />{" "}
-                    <span className="fa fa-star" />{" "}
-                    <span className="fa fa-star" />{" "}
-                    <span className="fa fa-star" />{" "}
-                    <span className="fa fa-star" />{" "}
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
+                    <FaRegStar />
                   </div>
                   <Button as={Link} to="/testimonials" rel="preload" className="blue-btns">
                     More Stories
