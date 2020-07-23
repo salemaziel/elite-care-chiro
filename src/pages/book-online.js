@@ -1,15 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
-import Container from "react-bootstrap/Container";
-import Banner from "../components/banner";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
-import { Helmet } from 'react-helmet'
+
+import BookOnlinePage from '../components/PageComponents/Book/BookOnlinePage'
 
 const Schedule = () => (
   <Layout>
-    <div
+   {/* <div
       style={{
         height: "50px",
         width: "100%",
@@ -19,9 +16,7 @@ const Schedule = () => (
         alignItems: "center",
       }}
     />
-        <Helmet>
-<script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
-    </Helmet>
+
     <Banner />
     <section style={{ backgroundColor: "blue" }}>
       <Container
@@ -37,6 +32,7 @@ const Schedule = () => (
         <Row
           style={{ display: "flex", margin: "auto", justifyContent: "center" }}
         >
+          <Booking />
           {/*<iframe
             src="https://booking.appointy.com/salemaziel/?isGadget=1"
             width={800}
@@ -44,7 +40,7 @@ const Schedule = () => (
             frameBorder={0}
             style={{border: '0'}}
             scrolling="auto"
-          />*/}
+          />* /}
 
           <iframe
             title="Book Appointment"
@@ -57,7 +53,8 @@ const Schedule = () => (
           />
         </Row>
       </Container>
-    </section>
+    </section>*/}
+    <BookOnlinePage />
   </Layout>
 );
 

@@ -69,7 +69,6 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-        <script src="https://www.appointletcdn.com/loader/loader.min.js" async="" defer=""></script>
 
 
       </Helmet>

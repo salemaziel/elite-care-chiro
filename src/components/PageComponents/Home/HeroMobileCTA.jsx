@@ -40,7 +40,7 @@ const HeroMobileCTA = () => (
           buttonText={[
             <a href="tel:1-760-710-1901" className={heroStyles.CTALink}>
               <FaPhoneAlt className={heroStyles.CTACall} />
-            </a>,
+            </a>
           ]}
         ></CTAButtons>
       </Col>
@@ -52,7 +52,7 @@ const HeroMobileCTA = () => (
           buttonText={[
             <a href="sms:1-760-710-1901" className={heroStyles.CTALink}>
               <FaComments className={heroStyles.CTAMessage} />
-            </a>,
+            </a>
           ]}
         ></CTAButtons>
       </Col>

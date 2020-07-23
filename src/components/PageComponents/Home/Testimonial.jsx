@@ -9,7 +9,7 @@ import { Link } from "gatsby";
 
 import homeStyles from "./home.module.css";
 
-import { FaRegStar } from 'react-icons/fa'
+import { AiFillStar } from 'react-icons/ai'
 
 const Testimonial = () => (
   <section className={homeStyles.SucessSection}>
@@ -45,11 +45,11 @@ const Testimonial = () => (
                   </h4>
                   <div className={homeStyles.stars}>
                     {" "}
-                    <FaRegStar />
-                    <FaRegStar />
-                    <FaRegStar />
-                    <FaRegStar />
-                    <FaRegStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
+                    <AiFillStar />
                   </div>
                   <Button as={Link} to="/testimonials" rel="preload" className="blue-btns">
                     More Stories

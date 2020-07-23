@@ -22,16 +22,13 @@ const Hero = () => (
         <div className="col-lg-6 col-md-8">
           <Fade left cascade big>
           <h1>
-            {" "}
             Welcome to
             <br />
-            <span>Elite Care Chiropractic</span>{" "}
+            <span>Elite Care Chiropractic</span>
           </h1>
-          <hr />
           </Fade>
           <Fade left>
           <p>
-           {" "}
            Providing Encinitas with the highest quality in Chiropractic care for <strong>over 15 years. </strong>
           </p>
           </Fade>

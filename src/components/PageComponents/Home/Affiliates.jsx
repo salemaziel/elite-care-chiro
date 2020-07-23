@@ -1,6 +1,6 @@
 import React from 'react'
 import { RoadRunners, Newton, Intraining, Multisports } from '../../../images/index'
-
+import Col from 'react-bootstrap/Col'
 import homeStyles from './home.module.css'
 
 
@@ -14,16 +14,16 @@ const Affiliates = () => (
       </div>
     </div>
     <div className="row">
-      <div className="col-md-12 top-margin">
-        <div className={homeStyles.AffiliatesLeftArrow}><span className="fa fa-angle-left" /></div>
-        <div className={homeStyles.AffiliatesRightArrow}><span className="fa fa-angle-right" /></div>
+      <Col md={4} className="top-margin">
+        {/*<div className={homeStyles.AffiliatesLeftArrow}><span className="fa fa-angle-left" /></div>
+        <div className={homeStyles.AffiliatesRightArrow}><span className="fa fa-angle-right" /></div>*/}
         <div className={homeStyles.AffiliatesSlider}>
           <div className={homeStyles.AffiliatesBox}> <img src={RoadRunners} className="img-fluid" /> </div>
           <div className={homeStyles.AffiliatesBox}> <img src={Intraining} className="img-fluid" /> </div>
           <div className={homeStyles.AffiliatesBox}> <img src={Newton} className="img-fluid" /> </div>
           <div className={homeStyles.AffiliatesBox}> <img src={Multisports} className="img-fluid" /> </div>
         </div>
-      </div>
+      </Col>
     </div>
   </div>
 </section>
