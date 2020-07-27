@@ -7,7 +7,7 @@
     -webkit-align-items: center;
     -ms-align-items: center;
     align-items: center;
-    margin: 3rem auto;
+    margin: 2rem auto;
     width: 70em;
     padding: 0;
   }
@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
    /* background-color: rgba(21, 27, 33, 0.6);*/
     color: #ffffff;
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
   
   .cta input,
