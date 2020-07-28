@@ -29,6 +29,36 @@
     margin-bottom: 4px;
 }
 
+/*
+
+.Categories li {
+    position: relative;
+    margin-bottom: 4px;
+    position: relative;
+    color: #0397d7;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 15px 14px 22px;
+    display: block;
+    border-left: 4px solid #d2d2d2;
+    background-color: #f1f1f1;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.Categories li:hover {
+    color:#ffffff!important;
+	/*border-color:#196c7b;
+    background-color:#55b6c7;* /
+    border-color: #08668f!important;
+    background-color: #0397d7!important;
+}
+
+*/
+
 .Categories li a {
     position: relative;
     color: #0397d7;

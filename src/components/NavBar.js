@@ -31,23 +31,39 @@ class NavBar extends React.Component {
   render() {
     return (
       <>
+                <div className="coronadiv" >
+          Important Message from Elite Care Chiropractic regarding COVID-19 (Novel Coronavirus) - <Link 
+          to="/covid-19" 
+          style={{
+            textDecoration: 'underline', 
+            cursor: 'pointer',
+            color: 'white',
+            fontWeight: '600',
+          }}>
+             Read More
+          </Link>
+        </div>
 
+ 
         <Navbar
           bg="white"
           variant="light"
           expand="lg"
-          /*fixed="top"*/ style={{
+          /*fixed="top"*/
+          className={navStyles.Bar}
+          /*style={{
             position: "fixed",
-            top: "-10px",
+            top: "0",
             right: "0",
             left: "0",
             zIndex: "5",
             border: "1px solid",
             borderColor: "rgba(0,0,0,0.05)",
             borderRadius: "5px",
-          }}
+          }}*/
         >
           <Container>
+
             <Navbar.Brand as={Link} to="/">
               <img
                 src={LogoLG}

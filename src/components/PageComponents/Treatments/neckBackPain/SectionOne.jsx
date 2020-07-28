@@ -22,7 +22,7 @@ const SectionOne = () => (
             <li><Link to="/services/gait-evaluation">Gait Evaluation</Link></li>
               <li><Link to="/services/myofascial-release">Myofascial Release</Link></li>
               <li ><Link to="/treatments/motor-vehicle-collisions">Motor Vehicle Collisions</Link></li>
-              <li className={neckStyles.active}><Link to="/treatments/neck-and-back-pain">Neck and Back Pain</Link></li>
+              <li className={neckStyles.active}><Link to="/treatments/neck-and-back-pain" id="neck">Neck and Back Pain</Link></li>
               <li><Link to="/services/orthotics">Orthotics</Link></li>
               <li ><Link to="/services/physiotherapy-protocols">PhysioTherapy Protocols</Link></li>
               <li><Link to="/treatments/sports-injuries">Sport Injuries</Link></li>

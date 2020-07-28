@@ -18,7 +18,7 @@ const SectionOne = () => (
             <div className={adjustiveStyles.sidebarWidget}>
               <ul className={adjustiveStyles.Categories}>
                 <li className={adjustiveStyles.active}>
-                  <Link to="/services/adjustive-technique">
+                  <Link to="/services/adjustive-technique" >
                     Adjustive Technique
                   </Link>
                 </li>

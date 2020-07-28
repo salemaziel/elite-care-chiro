@@ -409,6 +409,42 @@ form button:disabled {
   display: none;
 }
 
+
+.coronadiv {
+  height: 30px;
+    width: 100%;
+    background-color: #28282a;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    display: block;
+    margin: 0 auto;
+    line-height: 2rem;
+    z-index: 99999999;
+    text-align: center;
+    
+}
+
+.coronadiv2 {
+  height: 30px;
+    width: 100%;
+    background-color: #28282a;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    display: block;
+    margin: 0 auto;
+    line-height: 2rem;
+    z-index: 99999999;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+
 @media screen and (max-width: 1680px) {
   .NoMobile {
     display: block;
@@ -507,7 +543,7 @@ form button:disabled {
     color: rgb(3, 151, 215);
     border-color: rgb(3, 151, 215);
     z-index: 10;
-    position: fixed;
+    position: absolute;
     left: 80%;
     background-color: white;
   }
@@ -559,6 +595,12 @@ form button:disabled {
     padding: 1rem 3rem;
 	border-color: white;
 	line-height: 1.5rem;
+  }
+
+  .coronadiv {
+    padding: 0 10px;
+    height: auto;
+    line-height: 24px;
   }
 }
 

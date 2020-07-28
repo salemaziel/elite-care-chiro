@@ -25,7 +25,7 @@ const SectionOne = () => (
               <li><Link to="/treatments/neck-and-back-pain">Neck and Back Pain</Link></li>
               <li><Link to="/services/orthotics">Orthotics</Link></li>
               <li ><Link to="/services/physiotherapy-protocols">PhysioTherapy Protocols</Link></li>
-              <li className={sportStyles.active}><Link to="/treatments/sports-injuries">Sport Injuries</Link></li>
+              <li className={sportStyles.active}><Link to="/treatments/sports-injuries" id="sports">Sport Injuries</Link></li>
 
             </ul>
           </div>

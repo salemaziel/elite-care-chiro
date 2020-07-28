@@ -11,6 +11,18 @@
     border: 2px solid;
     color: white;
 }*/
+.Bar {
+    top: 0;
+    right: 0px;
+    left: 0px;
+    z-index: 5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    position: sticky;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 
 .NavBook {
     background: #0397d7;
@@ -101,6 +113,11 @@
     min-width: 100vw;
     width: 100%;
 }
+
+.Bar {
+    top: 0;
+}
+
 }
 
 

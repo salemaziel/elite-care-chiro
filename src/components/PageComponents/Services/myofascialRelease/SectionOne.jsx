@@ -26,7 +26,7 @@ const SectionOne = () => (
                   <Link to="/services/gait-evaluation">Gait Evaluation</Link>
                 </li>
                 <li className={myofascialStyles.active}>
-                  <Link to="/services/myofascial-release">
+                  <Link to="/services/myofascial-release" id="myofascial">
                     Myofascial Release
                   </Link>
                 </li>

@@ -31,7 +31,7 @@ const SectionOne = () => (
                   </Link>
                 </li>
                 <li className={motorStyles.active}>
-                  <Link to="/treatments/motor-vehicle-collisions">
+                  <Link to="/treatments/motor-vehicle-collisions" id="motor">
                     Motor Vehicle Collisions
                   </Link>
                 </li>

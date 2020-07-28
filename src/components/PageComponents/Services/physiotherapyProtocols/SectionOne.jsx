@@ -44,7 +44,7 @@ const SectionOne = () => (
                   <Link to="/services/orthotics">Orthotics</Link>
                 </li>
                 <li className={physioStyles.active}>
-                  <Link to="/services/physiotherapy-protocols">
+                  <Link to="/services/physiotherapy-protocols" id="physiotherapy">
                     PhysioTherapy Protocols
                   </Link>
                 </li>
